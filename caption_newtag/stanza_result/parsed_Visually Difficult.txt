@@ -1,0 +1,228 @@
+the person without earrings pays the person with earrings
+(ROOT (S (NP (NP (DT the) (NN person)) (PP (IN without) (NP (NNS earrings)))) (VP (VBZ pays) (NP (DT the) (NN person)) (PP (IN with) (NP (NNS earrings))))))
+
+the person with earrings pays the person without earrings
+(ROOT (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (NNS earrings)))) (VP (VBZ pays) (NP (DT the) (NN person)) (PP (IN without) (NP (NNS earrings))))))
+
+The person with more facial hair lies awake while the other sleeps
+(ROOT (S (NP (NP (DT The) (NN person)) (PP (IN with) (NP (JJR more) (JJ facial) (NN hair)))) (VP (VBZ lies) (S (ADJP (JJ awake))) (SBAR (IN while) (S (NP (DT the) (JJ other)) (VP (VBZ sleeps)))))))
+
+The person with more facial hair sleeps while the other lies awake
+(ROOT (S (NP (NP (DT The) (NN person)) (PP (IN with) (NP (JJR more) (JJ facial) (NN hair)))) (VP (VBZ sleeps) (SBAR (IN while) (S (NP (DT the) (JJ other)) (VP (VBZ lies) (ADJP (JJ awake))))))))
+
+the person in the middle is floating and some others are standing
+(ROOT (S (S (NP (NP (DT the) (NN person)) (PP (IN in) (NP (DT the) (NN middle)))) (VP (VBZ is) (VP (VBG floating)))) (CC and) (S (NP (DT some) (NNS others)) (VP (VBP are) (VP (VBG standing))))))
+
+the person in the middle is standing and some others are floating
+(ROOT (S (S (NP (NP (DT the) (NN person)) (PP (IN in) (NP (DT the) (NN middle)))) (VP (VBZ is) (VP (VBG standing)))) (CC and) (S (NP (DT some) (NNS others)) (VP (VBP are) (VP (VBG floating))))))
+
+the person with the white collared shirt waters the plant while the other holds it
+(ROOT (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (NP (DT the) (ADJP (JJ white) (JJ collared)) (NN shirt) (NNS waters)) (NP (DT the) (NN plant))))) (SBAR (IN while) (S (NP (DT the) (JJ other)) (VP (VBZ holds) (NP (PRP it)))))))
+
+the person with the white collared shirt holds the plant while the other waters it
+(ROOT (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (JJ white) (JJ collared) (NN shirt)))) (VP (VBZ holds) (NP (DT the) (NN plant)) (SBAR (IN while) (NP (NP (DT the) (JJ other) (NNS waters)) (NP (PRP it)))))))
+
+the person with the ponytail packs stuff and other buys it
+(ROOT (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (NP (DT the) (NML (NN ponytail) (NNS packs)) (NN stuff)) (CC and) (NP (JJ other))))) (VP (VBZ buys) (NP (PRP it)))))
+
+the person with the ponytail buys stuff and other packs it
+(ROOT (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (NN ponytail)))) (VP (VBZ buys) (NP (NP (NN stuff)) (CC and) (NP (JJ other) (NNS packs))) (NP (PRP it)))))
+
+a person walking in a field of yellow flowers with a red dress
+(ROOT (NP (NP (DT a) (NN person)) (VP (VBG walking) (PP (IN in) (NP (NP (DT a) (NN field)) (PP (IN of) (NP (JJ yellow) (NNS flowers))))) (PP (IN with) (NP (DT a) (JJ red) (NN dress))))))
+
+a person walking in a field of red flowers with a yellow dress
+(ROOT (NP (NP (DT a) (NN person)) (VP (VBG walking) (PP (IN in) (NP (NP (DT a) (NN field)) (PP (IN of) (NP (JJ red) (NNS flowers))))) (PP (IN with) (NP (DT a) (JJ yellow) (NN dress))))))
+
+The red book is above the yellow book and below the blue book
+(ROOT (S (NP (DT The) (JJ red) (NN book)) (VP (VBZ is) (PP (PP (IN above) (NP (DT the) (JJ yellow) (NN book))) (CC and) (PP (IN below) (NP (DT the) (JJ blue) (NN book)))))))
+
+The yellow book is above the blue book and below the red book
+(ROOT (S (NP (DT The) (JJ yellow) (NN book)) (VP (VBZ is) (PP (PP (IN above) (NP (DT the) (JJ blue) (NN book))) (CC and) (PP (IN below) (NP (DT the) (JJ red) (NN book)))))))
+
+a wood chess piece rests on metal objects
+(ROOT (S (NP (DT a) (NN wood) (NN chess) (NN piece)) (VP (VBZ rests) (PP (IN on) (NP (NN metal) (NNS objects))))))
+
+a metal chess piece rests on wood objects
+(ROOT (S (NP (DT a) (NN metal) (NN chess) (NN piece)) (VP (VBZ rests) (PP (IN on) (NP (NN wood) (NNS objects))))))
+
+it hatched before it was eaten
+(ROOT (S (NP (PRP it)) (VP (VBD hatched) (SBAR (IN before) (S (NP (PRP it)) (VP (VBD was) (VP (VBN eaten))))))))
+
+it was eaten before it hatched
+(ROOT (S (NP (PRP it)) (VP (VBD was) (VP (VBN eaten) (SBAR (IN before) (S (NP (PRP it)) (VP (VBD hatched))))))))
+
+the animal's eyes are bigger than the person's
+(ROOT (S (NP (NP (DT the) (NN animal) (POS 's)) (NNS eyes)) (VP (VBP are) (ADJP (ADJP (JJR bigger)) (PP (IN than) (NP (DT the) (NNS person's)))))))
+
+the person's eyes are bigger than the animal's
+(ROOT (S (NP (NP (DT the) (NN person) (POS 's)) (NNS eyes)) (VP (VBP are) (ADJP (ADJP (JJR bigger)) (PP (IN than) (NP (DT the) (NNS animal's)))))))
+
+almost everyone is in a boat and one is swimming
+(ROOT (S (S (NP (NP (RB almost) (NN everyone))) (VP (VBZ is) (PP (IN in) (NP (DT a) (NN boat))))) (CC and) (S (NP (CD one)) (VP (VBZ is) (VP (VBG swimming))))))
+
+one is in a boat and almost everyone is swimming
+(ROOT (S (S (NP (CD one)) (VP (VBZ is) (PP (IN in) (NP (DT a) (NN boat))))) (CC and) (S (NP (RB almost) (NN everyone)) (VP (VBZ is) (VP (VBG swimming))))))
+
+the person with the lighter shoes is holding an emoji and the person with the darker shoes isn't
+(ROOT (S (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (JJR lighter) (NNS shoes)))) (VP (VBZ is) (VP (VBG holding) (NP (DT an) (NN emoji))))) (CC and) (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (JJR darker) (NNS shoes)))) (VP (VBZ is) (RB n't)))))
+
+the person with the darker shoes is holding an emoji and the person with the lighter shoes isn't
+(ROOT (S (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (JJR darker) (NNS shoes)))) (VP (VBZ is) (VP (VBG holding) (NP (DT an) (NN emoji))))) (CC and) (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (JJR lighter) (NNS shoes)))) (VP (VBZ is) (RB n't)))))
+
+the people with shoes are touching each other
+(ROOT (S (NP (NP (DT the) (NNS people)) (PP (IN with) (NP (NNS shoes)))) (VP (VBP are) (VP (VBG touching) (NP (DT each) (JJ other))))))
+
+the people are touching each other with shoes
+(ROOT (S (NP (DT the) (NNS people)) (VP (VBP are) (VP (VBG touching) (NP (DT each) (JJ other)) (PP (IN with) (NP (NNS shoes)))))))
+
+they are using no bait but still got fish
+(ROOT (S (NP (PRP they)) (VP (VP (VBP are) (VP (VBG using) (NP (DT no) (NN bait)))) (CC but) (ADVP (RB still)) (VP (VBD got) (NP (NNS fish))))))
+
+they are using bait but still got no fish
+(ROOT (S (NP (PRP they)) (VP (VP (VBP are) (VP (VBG using) (NP (NN bait)))) (CC but) (ADVP (RB still)) (VP (VBD got) (NP (DT no) (NN fish))))))
+
+the children are being quiet while the adult is loud
+(ROOT (S (NP (DT the) (NNS children)) (VP (VBP are) (VP (VBG being) (ADJP (JJ quiet)) (SBAR (IN while) (S (NP (DT the) (NN adult)) (VP (VBZ is) (ADJP (JJ loud)))))))))
+
+the children are being loud while the adult is quiet
+(ROOT (S (NP (DT the) (NNS children)) (VP (VBP are) (VP (VBG being) (ADJP (JJ loud)) (SBAR (IN while) (S (NP (DT the) (NN adult)) (VP (VBZ is) (ADJP (JJ quiet)))))))))
+
+circular food on heart-shaped wood
+(ROOT (NP (NP (JJ circular) (NN food)) (PP (IN on) (NP (ADJP (NN heart) (HYPH -) (VBN shaped)) (NN wood)))))
+
+heart-shaped food on circular wood
+(ROOT (NP (NP (ADJP (NN heart) (HYPH -) (VBN shaped)) (NN food)) (PP (IN on) (NP (JJ circular) (NN wood)))))
+
+there are two people and a bunch of horses
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (CD two) (NNS people)) (CC and) (NP (NP (DT a) (NN bunch)) (PP (IN of) (NP (NNS horses))))))))
+
+there are a bunch of people and two horses
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (DT a) (NN bunch)) (PP (IN of) (NP (NP (NNS people)) (CC and) (NP (CD two) (NNS horses))))))))
+
+the computer's screen is on and the phone's screen is off
+(ROOT (S (S (NP (NP (DT the) (NN computer) (POS 's)) (NN screen)) (VP (VBZ is) (ADVP (RB on)))) (CC and) (S (NP (NP (DT the) (NN phone) (POS 's)) (NN screen)) (VP (VBZ is) (ADVP (RB off))))))
+
+the phone's screen is on and the computer's screen is off
+(ROOT (S (S (NP (NP (DT the) (NN phone) (POS 's)) (NN screen)) (VP (VBZ is) (ADVP (RB on)))) (CC and) (S (NP (NP (DT the) (NN computer) (POS 's)) (NN screen)) (VP (VBZ is) (ADVP (RB off))))))
+
+a person is casting a shadow beside a ball
+(ROOT (S (NP (DT a) (NN person)) (VP (VBZ is) (VP (VBG casting) (NP (DT a) (NN shadow)) (PP (IN beside) (NP (DT a) (NN ball)))))))
+
+a ball is casting a shadow beside a person
+(ROOT (S (NP (DT a) (NN ball)) (VP (VBZ is) (VP (VBG casting) (NP (DT a) (NN shadow)) (PP (IN beside) (NP (DT a) (NN person)))))))
+
+some green on the ball
+(ROOT (NP (NP (DT some) (NN green)) (PP (IN on) (NP (DT the) (NN ball)))))
+
+the ball on some green
+(ROOT (NP (NP (DT the) (NN ball)) (PP (IN on) (NP (DT some) (NN green)))))
+
+the water is filled with plastic
+(ROOT (S (NP (DT the) (NN water)) (VP (VBZ is) (VP (VBN filled) (PP (IN with) (NP (NN plastic)))))))
+
+the plastic is filled with water
+(ROOT (S (NP (DT the) (NN plastic)) (VP (VBZ is) (VP (VBN filled) (PP (IN with) (NP (NN water)))))))
+
+the person reached the base before the ball
+(ROOT (S (NP (DT the) (NN person)) (VP (VBD reached) (NP (DT the) (NN base)) (PP (IN before) (NP (DT the) (NN ball))))))
+
+the ball reached the base before the person
+(ROOT (S (NP (DT the) (NN ball)) (VP (VBD reached) (NP (DT the) (NN base)) (PP (IN before) (NP (DT the) (NN person))))))
+
+the person on the left is holding the phone and the person on the right is staring at it
+(ROOT (S (S (NP (NP (DT the) (NN person)) (PP (IN on) (NP (DT the) (NN left)))) (VP (VBZ is) (VP (VBG holding) (NP (DT the) (NN phone))))) (CC and) (S (NP (NP (DT the) (NN person)) (PP (IN on) (NP (DT the) (NN right)))) (VP (VBZ is) (VP (VBG staring) (PP (IN at) (NP (PRP it))))))))
+
+the person on the right is holding the phone and the person on the left is staring at it
+(ROOT (S (S (NP (NP (DT the) (NN person)) (PP (IN on) (NP (DT the) (NN right)))) (VP (VBZ is) (VP (VBG holding) (NP (DT the) (NN phone))))) (CC and) (S (NP (NP (DT the) (NN person)) (PP (IN on) (NP (DT the) (NN left)))) (VP (VBZ is) (VP (VBG staring) (PP (IN at) (NP (PRP it))))))))
+
+there's more foam on the left than on the right
+(ROOT (S (NP (EX there)) (VP (VBZ 's) (NP (NP (JJR more) (NN foam)) (PP (IN on) (NP (DT the) (NN left))) (PP (IN than) (PP (IN on) (NP (DT the) (NN right))))))))
+
+there's more foam on the right than on the left
+(ROOT (S (NP (EX there)) (VP (VBZ 's) (NP (NP (JJR more) (NN foam))) (PP (IN on) (NP (DT the) (NN right))) (PP (IN than) (PP (IN on) (NP (DT the) (NN left)))))))
+
+a shorter person wearing blue standing next to a taller person
+(ROOT (NP (NP (DT a) (JJR shorter) (NN person)) (VP (VBG wearing) (NP (NP (JJ blue) (NN standing)) (ADVP (RB next) (PP (IN to) (NP (DT a) (JJR taller) (NN person))))))))
+
+a taller person wearing blue standing next to a shorter person
+(ROOT (NP (NP (DT a) (JJR taller) (NN person)) (VP (VBG wearing) (NP (NP (JJ blue) (NN standing)) (ADVP (RB next) (PP (IN to) (NP (DT a) (JJR shorter) (NN person))))))))
+
+a person cries while another person wearing jewelry above their shoulders consoles
+(ROOT (S (NP (DT a) (NN person)) (VP (VBZ cries) (SBAR (IN while) (S (NP (DT another) (NN person)) (VP (VBG wearing) (NP (NP (NN jewelry)) (PP (IN above) (NP (PRP$ their) (NNS shoulders) (NNS consoles))))))))))
+
+a person consoles while another person wearing jewelry above their shoulders cries
+(ROOT (S (NP (DT a) (NN person)) (VP (NNS consoles) (SBAR (IN while) (S (S (NP (DT another) (NN person)) (VP (VBG wearing) (NP (NP (NN jewelry)) (PP (IN above) (NP (PRP$ their) (NNS shoulders)))))) (VP (VBZ cries)))))))
+
+the driver wearing a shirt is in front of the other person wearing a sleeveless top
+(ROOT (S (NP (NP (DT the) (NN driver)) (VP (VBG wearing) (NP (DT a) (NN shirt)))) (VP (VBZ is) (PP (IN in) (NP (NP (NN front)) (PP (IN of) (NP (NP (DT the) (JJ other) (NN person)) (VP (VBG wearing) (NP (DT a) (JJ sleeveless) (NN top))))))))))
+
+the driver wearing a sleeveless top is in front of the other person wearing a shirt
+(ROOT (S (NP (NP (DT the) (NN driver)) (VP (VBG wearing) (NP (DT a) (JJ sleeveless) (NN top)))) (VP (VBZ is) (PP (IN in) (NP (NP (NN front)) (PP (IN of) (NP (NP (DT the) (JJ other) (NN person)) (VP (VBG wearing) (NP (DT a) (NN shirt))))))))))
+
+an object that rolls is on some wood
+(ROOT (S (NP (NP (DT an) (NN object)) (SBAR (WHNP (WDT that)) (S (VP (VBZ rolls))))) (VP (VBZ is) (PP (IN on) (NP (DT some) (NN wood))))))
+
+some wood is on an object that rolls
+(ROOT (S (NP (DT some) (NN wood)) (VP (VBZ is) (PP (IN on) (NP (NP (DT an) (NN object)) (SBAR (WHNP (WDT that)) (S (VP (VBZ rolls)))))))))
+
+the person with hair to their shoulders has brown eyes and the other person's are blue
+(ROOT (S (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (NP (NN hair)) (PP (IN to) (NP (PRP$ their) (NNS shoulders)))))) (VP (VBZ has) (NP (JJ brown) (NNS eyes)))) (CC and) (S (NP (DT the) (JJ other) (NNS person's)) (VP (VBP are) (ADJP (JJ blue))))))
+
+the person with hair to their shoulders has blue eyes and the other person's are brown
+(ROOT (S (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (NP (NN hair)) (PP (IN to) (NP (PRP$ their) (NNS shoulders)))))) (VP (VBZ has) (NP (JJ blue) (NNS eyes)))) (CC and) (S (NP (DT the) (JJ other) (NNS person's)) (VP (VBP are) (ADJP (JJ brown))))))
+
+seat numbers increasing from left to right
+(ROOT (NP (NP (NN seat) (NNS numbers)) (VP (VBG increasing) (PP (IN from) (NP (NN left))) (PP (IN to) (ADVP (RB right))))))
+
+seat numbers increasing from right to left
+(ROOT (NP (NP (NN seat) (NNS numbers)) (VP (VBG increasing) (PP (IN from) (NP (NN right))) (S (VP (TO to) (VP (VB left)))))))
+
+the confident doctor's stethoscope is around their neck, and their jacket is over their name tag
+(ROOT (S (S (NP (DT the) (JJ confident) (NP (NN doctor) (POS 's)) (NN stethoscope)) (VP (VBZ is) (PP (IN around) (NP (PRP$ their) (NN neck))))) (, ,) (CC and) (S (NP (PRP$ their) (NN jacket)) (VP (VBZ is) (PP (IN over) (NP (PRP$ their) (NN name) (NN tag)))))))
+
+the confident doctor's stethoscope is around their neck, and their name tag is over their jacket
+(ROOT (S (S (NP (DT the) (JJ confident) (NP (NN doctor) (POS 's)) (NN stethoscope)) (VP (VBZ is) (PP (IN around) (NP (PRP$ their) (NN neck))))) (, ,) (CC and) (S (NP (PRP$ their) (NN name) (NN tag)) (VP (VBZ is) (PP (IN over) (NP (PRP$ their) (NN jacket)))))))
+
+the cat on the left of the photo has its right paw ahead of its left
+(ROOT (S (NP (NP (DT the) (NN cat)) (PP (IN on) (NP (NP (DT the) (NN left)) (PP (IN of) (NP (DT the) (NN photo)))))) (VP (VBZ has) (NP (PRP$ its) (JJ right) (NN paw)) (ADVP (RB ahead) (PP (IN of) (NP (PRP$ its) (NN left)))))))
+
+the cat on the left of the photo has its left paw ahead of its right
+(ROOT (S (NP (NP (DT the) (NN cat)) (PP (IN on) (NP (NP (DT the) (NN left)) (PP (IN of) (NP (DT the) (NN photo)))))) (VP (VBZ has) (NP (PRP$ its) (JJ left) (NN paw)) (ADVP (RB ahead) (PP (IN of) (NP (PRP$ its) (NN right)))))))
+
+there are more legs than wheels
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR more) (NNS legs)) (PP (IN than) (NP (NNS wheels)))))))
+
+there are more wheels than legs
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR more) (NNS wheels)) (PP (IN than) (NP (NNS legs)))))))
+
+a person wearing black shoes cleaning a bookshelf with an orange duster while a person wearing green shoes drinks wine from an orange glass and relaxes
+(ROOT (NP (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (JJ black) (NNS shoes)))) (VP (VBG cleaning) (NP (DT a) (NN bookshelf)) (PP (IN with) (NP (DT an) (JJ orange) (NN duster))) (SBAR (IN while) (S (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (JJ green) (NNS shoes)))) (VP (VP (VBZ drinks) (NP (NN wine)) (PP (IN from) (NP (DT an) (JJ orange) (NN glass)))) (CC and) (VP (VBZ relaxes))))))))
+
+a person wearing green shoes cleaning a bookshelf with an orange duster while a person wearing black shoes drinks wine from an orange glass and relaxes
+(ROOT (NP (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (JJ green) (NNS shoes)))) (VP (VBG cleaning) (NP (DT a) (NN bookshelf)) (PP (IN with) (NP (DT an) (JJ orange) (NN duster))) (SBAR (IN while) (S (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (JJ black) (NNS shoes)))) (VP (VP (VBZ drinks) (NP (NN wine)) (PP (IN from) (NP (DT an) (JJ orange) (NN glass)))) (CC and) (VP (VBZ relaxes))))))))
+
+a volcano above water makes steam
+(ROOT (S (NP (NP (DT a) (NN volcano)) (PP (IN above) (NP (NN water)))) (VP (VBZ makes) (ADJP (NN steam)))))
+
+water above a volcano makes steam
+(ROOT (S (NP (NP (NN water)) (PP (IN above) (NP (DT a) (NN volcano)))) (VP (VBZ makes) (ADJP (NN steam)))))
+
+a fencer who is wearing black pants having a point scored against them by another fencer using a wheelchair
+(ROOT (S (NP (NP (DT a) (NN fencer)) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (VP (VBG wearing) (NP (NP (JJ black) (NNS pants)) (VP (VBG having) (NP (DT a) (NN point))))))))) (VP (VBN scored) (PP (IN against) (NP (PRP them))) (PP (IN by) (NP (NP (DT another) (NN fencer)) (VP (VBG using) (NP (DT a) (NN wheelchair))))))))
+
+a fencer having a point scored against them by another fencer who is wearing black pants using a wheelchair
+(ROOT (S (NP (NP (DT a) (NN fencer)) (VP (VBG having) (NP (DT a) (NN point)))) (VP (VBN scored) (PP (IN against) (NP (PRP them))) (PP (IN by) (NP (NP (DT another) (NN fencer)) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (VP (VBG wearing) (NP (NP (JJ black) (NNS pants)) (VP (VBG using) (NP (DT a) (NN wheelchair)))))))))))))
+
+a car going into a hollow tube
+(ROOT (NP (NP (DT a) (NN car)) (VP (VBG going) (PP (IN into) (NP (DT a) (JJ hollow) (NN tube))))))
+
+a hollow tube going into a car
+(ROOT (NP (NP (DT a) (JJ hollow) (NN tube)) (VP (VBG going) (PP (IN into) (NP (DT a) (NN car))))))
+
+a person near water using a lasso
+(ROOT (NP (NP (DT a) (NN person)) (PP (IN near) (NP (NP (NN water)) (VP (VBG using) (NP (DT a) (NN lasso)))))))
+
+near a person using a water lasso
+(ROOT (PP (IN near) (NP (NP (DT a) (NN person)) (VP (VBG using) (NP (DT a) (NN water) (NN lasso))))))
+

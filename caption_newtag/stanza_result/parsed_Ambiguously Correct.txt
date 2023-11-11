@@ -1,0 +1,276 @@
+a person watches an animal
+(ROOT (S (NP (DT a) (NN person)) (VP (VBZ watches) (NP (DT an) (NN animal)))))
+
+an animal watches a person
+(ROOT (S (NP (DT an) (NN animal)) (VP (VBZ watches) (NP (DT a) (NN person)))))
+
+a caterpillar with some plants
+(ROOT (NP (NP (DT a) (NN caterpillar)) (PP (IN with) (NP (DT some) (NNS plants)))))
+
+a plant with some caterpillars
+(ROOT (NP (NP (DT a) (NN plant)) (PP (IN with) (NP (DT some) (NNS caterpillars)))))
+
+a wood chess piece rests on metal objects
+(ROOT (S (NP (DT a) (NN wood) (NN chess) (NN piece)) (VP (VBZ rests) (PP (IN on) (NP (NN metal) (NNS objects))))))
+
+a metal chess piece rests on wood objects
+(ROOT (S (NP (DT a) (NN metal) (NN chess) (NN piece)) (VP (VBZ rests) (PP (IN on) (NP (NN wood) (NNS objects))))))
+
+a person is drinking now and eating later
+(ROOT (S (NP (DT a) (NN person)) (VP (VBZ is) (VP (VP (VBG drinking) (ADVP (RB now))) (CC and) (VP (VBG eating) (ADVP (RBR later)))))))
+
+a person is drinking later and eating now
+(ROOT (S (NP (DT a) (NN person)) (VP (VBZ is) (VP (VP (VBG drinking) (ADVP (RBR later))) (CC and) (VP (VBG eating) (ADVP (RB now)))))))
+
+the kid with the magnifying glass looks at them
+(ROOT (S (NP (NP (DT the) (NN kid)) (PP (IN with) (NP (DT the) (VBG magnifying) (NN glass)))) (VP (VBZ looks) (PP (IN at) (NP (PRP them))))))
+
+the kid looks at them with the magnifying glass
+(ROOT (S (NP (DT the) (NN kid)) (VP (VBZ looks) (PP (IN at) (NP (PRP them))) (PP (IN with) (NP (DT the) (VBG magnifying) (NN glass))))))
+
+the person with the kids is sitting
+(ROOT (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (NNS kids)))) (VP (VBZ is) (VP (VBG sitting)))))
+
+the person is sitting with the kids
+(ROOT (S (NP (DT the) (NN person)) (VP (VBZ is) (VP (VBG sitting) (PP (IN with) (NP (DT the) (NNS kids)))))))
+
+the people with shoes are touching each other
+(ROOT (S (NP (NP (DT the) (NNS people)) (PP (IN with) (NP (NNS shoes)))) (VP (VBP are) (VP (VBG touching) (NP (DT each) (JJ other))))))
+
+the people are touching each other with shoes
+(ROOT (S (NP (DT the) (NNS people)) (VP (VBP are) (VP (VBG touching) (NP (DT each) (JJ other)) (PP (IN with) (NP (NNS shoes)))))))
+
+someone with an apple is hurt by a tree
+(ROOT (S (NP (NP (NN someone)) (PP (IN with) (NP (DT an) (NN apple)))) (VP (VBZ is) (VP (VBN hurt) (PP (IN by) (NP (DT a) (NN tree)))))))
+
+someone is hurt by a tree with an apple
+(ROOT (S (NP (NN someone)) (VP (VBZ is) (VP (VBN hurt) (PP (IN by) (NP (NP (DT a) (NN tree)) (PP (IN with) (NP (DT an) (NN apple)))))))))
+
+the person with the patterned shirt is curly-haired and the other is straight-haired
+(ROOT (S (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (VBN patterned) (NN shirt)))) (VP (VBZ is) (ADJP (JJ curly) (HYPH -) (JJ haired)))) (CC and) (S (NP (DT the) (JJ other)) (VP (VBZ is) (ADJP (JJ straight) (HYPH -) (JJ haired))))))
+
+the person with the patterned shirt is straight-haired and the other is curly-haired
+(ROOT (S (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (VBN patterned) (NN shirt)))) (VP (VBZ is) (ADJP (JJ straight) (HYPH -) (JJ haired)))) (CC and) (S (NP (DT the) (JJ other)) (VP (VBZ is) (ADJP (JJ curly) (HYPH -) (JJ haired))))))
+
+a dog sitting on a couch with a person lying on the floor
+(ROOT (NP (NP (DT a) (NN dog)) (VP (VBG sitting) (PP (IN on) (NP (DT a) (NN couch))) (PP (IN with) (S (NP (DT a) (NN person)) (VP (VBG lying) (PP (IN on) (NP (DT the) (NN floor)))))))))
+
+a person lying on a couch with a dog sitting on the floor
+(ROOT (NP (NP (DT a) (NN person)) (VP (VBG lying) (PP (IN on) (NP (DT a) (NN couch))) (PP (IN with) (NP (NP (DT a) (NN dog)) (VP (VBG sitting) (PP (IN on) (NP (DT the) (NN floor)))))))))
+
+meat with potatoes
+(ROOT (NP (NP (NN meat)) (PP (IN with) (NP (NNS potatoes)))))
+
+potatoes with meat
+(ROOT (NP (NP (NNS potatoes)) (PP (IN with) (NP (NN meat)))))
+
+black dog wearing a brown sweater
+(ROOT (NP (NP (JJ black) (NN dog)) (VP (VBG wearing) (NP (DT a) (JJ brown) (NN sweater)))))
+
+brown dog wearing a black sweater
+(ROOT (NP (NP (JJ brown) (NN dog)) (VP (VBG wearing) (NP (DT a) (JJ black) (NN sweater)))))
+
+the dress on the left is long and the dress on the right is short
+(ROOT (S (S (NP (NP (DT the) (NN dress)) (PP (IN on) (NP (DT the) (NN left)))) (VP (VBZ is) (ADJP (JJ long)))) (CC and) (S (NP (NP (DT the) (NN dress)) (PP (IN on) (NP (DT the) (NN right)))) (VP (VBZ is) (ADJP (JJ short))))))
+
+the dress on the left is short and the dress on the right is long
+(ROOT (S (S (NP (NP (DT the) (NN dress)) (PP (IN on) (NP (DT the) (NN left)))) (VP (VBZ is) (ADJP (JJ short)))) (CC and) (S (NP (NP (DT the) (NN dress)) (PP (IN on) (NP (DT the) (NN right)))) (VP (VBZ is) (ADJP (JJ long))))))
+
+the pool has no people and the area around it has a lot of people
+(ROOT (S (S (NP (DT the) (NN pool)) (VP (VBZ has) (NP (DT no) (NNS people)))) (CC and) (S (NP (NP (DT the) (NN area)) (PP (IN around) (NP (PRP it)))) (VP (VBZ has) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NNS people))))))))
+
+the pool has a lot of people and the area around it has no people
+(ROOT (S (S (NP (DT the) (NN pool)) (VP (VBZ has) (NP (NP (DT a) (NN lot)) (PP (IN of) (NP (NNS people)))))) (CC and) (S (NP (NP (DT the) (NN area)) (ADVP (IN around) (NP (PRP it)))) (VP (VBZ has) (NP (DT no) (NNS people))))))
+
+milk cow
+(ROOT (NP (NN milk) (NN cow)))
+
+cow milk
+(ROOT (NP (NN cow) (NN milk)))
+
+there is a clock wall
+(ROOT (S (NP (EX there)) (VP (VBZ is) (NP (DT a) (NN clock) (NN wall)))))
+
+there is a wall clock
+(ROOT (S (NP (EX there)) (VP (VBZ is) (NP (DT a) (NN wall) (NN clock)))))
+
+there is a split banana
+(ROOT (S (NP (EX there)) (VP (VBZ is) (NP (DT a) (JJ split) (NN banana)))))
+
+there is a banana split
+(ROOT (S (NP (EX there)) (VP (VBZ is) (NP (DT a) (NN banana) (NN split)))))
+
+boat sail
+(ROOT (NP (NP (NN boat)) (NN sail)))
+
+sail boat
+(ROOT (NP (NN sail) (NN boat)))
+
+they worked out then they drank water
+(ROOT (S (NP (PRP they)) (VP (VBD worked) (PRT (RP out)) (ADVP (RB then)) (SBAR (S (NP (PRP they)) (VP (VBD drank) (NP (NN water))))))))
+
+they drank water then they worked out
+(ROOT (S (S (NP (PRP they)) (VP (VBD drank) (NP (NN water)))) (RB then) (S (NP (PRP they)) (VP (VBD worked) (PRT (RP out))))))
+
+a shadow within the line
+(ROOT (NP (NP (DT a) (NN shadow)) (PP (IN within) (NP (DT the) (NN line)))))
+
+a line within the shadow
+(ROOT (NP (NP (DT a) (NN line)) (PP (IN within) (NP (DT the) (NN shadow)))))
+
+the brave in the face of fear
+(ROOT (NP (NP (DT the) (JJ brave)) (PP (IN in) (NP (NP (DT the) (NN face)) (PP (IN of) (NP (NN fear)))))))
+
+fear in the face of the brave
+(ROOT (NP (NP (NN fear)) (PP (IN in) (NP (NP (DT the) (NN face)) (PP (IN of) (NP (DT the) (NN brave)))))))
+
+I had cleaned my car
+(ROOT (S (NP (PRP I)) (VP (VBD had) (VP (VBN cleaned) (NP (PRP$ my) (NN car))))))
+
+I had my car cleaned
+(ROOT (S (NP (PRP I)) (VP (VBD had) (S (NP (PRP$ my) (NN car)) (VP (VBN cleaned))))))
+
+unfortunate poor people
+(ROOT (ADJP (JJ unfortunate) (JJ poor) (NNS people)))
+
+poor unfortunate people
+(ROOT (NP (JJ poor) (JJ unfortunate) (NNS people)))
+
+a group of three people with longer hair and two with short hair in a business context
+(ROOT (NP (NP (NP (DT a) (NN group)) (PP (IN of) (NP (NP (CD three) (NNS people)) (PP (IN with) (NP (JJR longer) (NN hair)))))) (CC and) (NP (NP (CD two)) (PP (IN with) (NP (JJ short) (NN hair))) (PP (IN in) (NP (DT a) (NN business) (NN context))))))
+
+a group of two people with longer hair and three with short hair in a business context
+(ROOT (NP (NP (DT a) (NN group)) (PP (IN of) (NP (NP (NP (CD two) (NNS people)) (PP (IN with) (NP (JJR longer) (NN hair)))) (CC and) (NP (NP (CD three)) (PP (IN with) (NP (JJ short) (NN hair))) (PP (IN in) (NP (DT a) (NN business) (NN context))))))))
+
+the melting white food is cold while the brown is warm
+(ROOT (S (NP (DT the) (NN melting) (JJ white) (NN food)) (VP (VBZ is) (ADJP (JJ cold)) (SBAR (IN while) (S (NP (DT the) (NN brown)) (VP (VBZ is) (ADJP (JJ warm))))))))
+
+the melting white food is warm while the brown is cold
+(ROOT (S (NP (DT the) (NN melting) (JJ white) (NN food)) (VP (VBZ is) (ADJP (JJ warm)) (SBAR (IN while) (S (NP (DT the) (NN brown)) (VP (VBZ is) (ADJP (JJ cold))))))))
+
+The adult with the magnifying glass looks at the kid
+(ROOT (S (NP (NP (DT The) (NN adult)) (PP (IN with) (NP (DT the) (VBG magnifying) (NN glass)))) (VP (VBZ looks) (PP (IN at) (NP (DT the) (NN kid))))))
+
+The adult looks at the kid with the magnifying glass
+(ROOT (S (NP (DT The) (NN adult)) (VP (VBZ looks) (PP (IN at) (NP (NP (DT the) (NN kid)) (PP (IN with) (NP (DT the) (VBG magnifying) (NN glass))))))))
+
+The cold-blooded animal isn't happy in warm water
+(ROOT (S (NP (DT The) (ADJP (JJ cold) (HYPH -) (JJ blooded)) (NN animal)) (VP (VBZ is) (RB n't) (ADJP (JJ happy)) (PP (IN in) (NP (JJ warm) (NN water))))))
+
+The warm-blooded animal isn't happy in cold water
+(ROOT (S (NP (DT The) (ADJP (JJ warm) (HYPH -) (JJ blooded)) (NN animal)) (VP (VBZ is) (RB n't) (ADJP (JJ happy)) (PP (IN in) (NP (JJ cold) (NN water))))))
+
+visiting animals at home can be fun
+(ROOT (S (S (VP (VBG visiting) (NP (NNS animals)) (PP (IN at) (NP (NN home))))) (VP (MD can) (VP (VB be) (ADJP (JJ fun))))))
+
+animals visiting at home can be fun
+(ROOT (S (NP (NP (NNS animals)) (VP (VBG visiting) (PP (IN at) (NP (NN home))))) (VP (MD can) (VP (VB be) (ADJP (JJ fun))))))
+
+the person is too big for the small door
+(ROOT (S (NP (DT the) (NN person)) (VP (VBZ is) (ADJP (RB too) (JJ big) (PP (IN for) (NP (DT the) (JJ small) (NN door)))))))
+
+the door is too small for the big person
+(ROOT (S (NP (DT the) (NN door)) (VP (VBZ is) (ADJP (RB too) (JJ small) (PP (IN for) (NP (DT the) (JJ big) (NN person)))))))
+
+every bug has a leaf
+(ROOT (S (NP (DT every) (NN bug)) (VP (VBZ has) (NP (DT a) (NN leaf)))))
+
+every leaf has a bug
+(ROOT (S (NP (DT every) (NN leaf)) (VP (VBZ has) (NP (DT a) (NN bug)))))
+
+human head on pet
+(ROOT (NP (NP (JJ human) (NN head)) (PP (IN on) (NP (NN pet)))))
+
+pet head on human
+(ROOT (NP (NP (NN pet) (NN head)) (PP (IN on) (NP (JJ human)))))
+
+cat house
+(ROOT (NP (NN cat) (NN house)))
+
+house cat
+(ROOT (NP (NN house) (NN cat)))
+
+a mouse is touching a dog
+(ROOT (S (NP (DT a) (NN mouse)) (VP (VBZ is) (VP (VBG touching) (NP (DT a) (NN dog))))))
+
+a dog is touching a mouse
+(ROOT (S (NP (DT a) (NN dog)) (VP (VBZ is) (VP (VBG touching) (NP (DT a) (NN mouse))))))
+
+a person wearing yellow and a person wearing stripes jumping
+(ROOT (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (NP (NP (NN yellow)) (CC and) (NP (DT a) (NN person))) (VP (VBG wearing) (NP (NP (NNS stripes)) (VBG jumping)))))))
+
+a jumping person wearing yellow and a person wearing stripes
+(ROOT (NP (NP (DT a) (NN jumping) (NN person)) (VP (VBG wearing) (NP (NP (NP (NN yellow)) (CC and) (NP (DT a) (NN person))) (VP (VBG wearing) (NP (NNS stripes)))))))
+
+together hammering something
+(ROOT (S (ADVP (RB together)) (VP (VBG hammering) (NP (NN something)))))
+
+hammering something together
+(ROOT (S (VP (VBG hammering) (NP (NN something)) (ADVP (RB together)))))
+
+A person sits next to a baby using an orange screwdriver to assemble a white piece of furniture
+(ROOT (S (NP (DT A) (NN person)) (VP (VBZ sits) (ADVP (RB next) (PP (IN to) (NP (NP (DT a) (NN baby)) (VP (VBG using) (NP (DT an) (JJ orange) (NN screwdriver)) (S (VP (TO to) (VP (VB assemble) (NP (NP (DT a) (JJ white) (NN piece)) (PP (IN of) (NP (NN furniture))))))))))))))
+
+A baby sits next to a person using an orange screwdriver to assemble a white piece of furniture
+(ROOT (S (NP (DT A) (NN baby)) (VP (VBZ sits) (ADVP (RB next) (PP (IN to) (NP (NP (DT a) (NN person)) (VP (VBG using) (NP (DT an) (JJ orange) (NN screwdriver)) (S (VP (TO to) (VP (VB assemble) (NP (NP (DT a) (JJ white) (NN piece)) (PP (IN of) (NP (NN furniture))))))))))))))
+
+A dog and a person with their feet hanging out of a car window
+(ROOT (S (NP (NP (DT A) (NN dog)) (CC and) (NP (NP (DT a) (NN person)) (PP (IN with) (NP (PRP$ their) (NNS feet))))) (VP (VBG hanging) (PP (IN out) (PP (IN of) (NP (DT a) (NN car) (NN window)))))))
+
+A dog with their feet hanging out of a car window and a person
+(ROOT (S (NP (NP (DT A) (NN dog)) (PP (IN with) (NP (PRP$ their) (NNS feet)))) (VP (VBG hanging) (PP (IN out) (PP (IN of) (NP (NP (DT a) (NN car) (NN window)) (CC and) (NP (DT a) (NN person))))))))
+
+A child riding a bike and an adult
+(ROOT (NP (NP (DT A) (NN child)) (VP (VBG riding) (NP (NP (DT a) (NN bike)) (CC and) (NP (DT an) (NN adult))))))
+
+A child and an adult riding a bike
+(ROOT (NP (NP (DT A) (NN child)) (CC and) (NP (NP (DT an) (NN adult)) (VP (VBG riding) (NP (DT a) (NN bike))))))
+
+An adult wearing purple lying next to a child
+(ROOT (S (NP (NP (DT An) (NN adult)) (VP (VBG wearing) (NP (NN purple)))) (VP (VBG lying) (ADVP (RB next) (PP (IN to) (NP (DT a) (NN child)))))))
+
+An adult lying next to a child wearing purple
+(ROOT (NP (NP (DT An) (NN adult)) (VP (VBG lying) (ADVP (RB next) (PP (IN to) (NP (NP (DT a) (NN child)) (VP (VBG wearing) (NP (NN purple)))))))))
+
+a fencer who is wearing black pants having a point scored against them by another fencer using a wheelchair
+(ROOT (S (NP (NP (DT a) (NN fencer)) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (VP (VBG wearing) (NP (NP (JJ black) (NNS pants)) (VP (VBG having) (NP (DT a) (NN point))))))))) (VP (VBN scored) (PP (IN against) (NP (PRP them))) (PP (IN by) (NP (NP (DT another) (NN fencer)) (VP (VBG using) (NP (DT a) (NN wheelchair))))))))
+
+a fencer having a point scored against them by another fencer who is wearing black pants using a wheelchair
+(ROOT (S (NP (NP (DT a) (NN fencer)) (VP (VBG having) (NP (DT a) (NN point)))) (VP (VBN scored) (PP (IN against) (NP (PRP them))) (PP (IN by) (NP (NP (DT another) (NN fencer)) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (VP (VBG wearing) (NP (NP (JJ black) (NNS pants)) (VP (VBG using) (NP (DT a) (NN wheelchair)))))))))))))
+
+a tree is partially inside a parked car
+(ROOT (S (NP (DT a) (NN tree)) (VP (VBZ is) (PP (ADVP (RB partially)) (IN inside) (NP (DT a) (VBN parked) (NN car))))))
+
+a parked car is partially inside a tree
+(ROOT (S (NP (DT a) (VBN parked) (NN car)) (VP (VBZ is) (PP (ADVP (RB partially)) (IN inside) (NP (DT a) (NN tree))))))
+
+two people wearing clothes of the same colors are on different side of the tennis net
+(ROOT (S (NP (NP (CD two) (NNS people)) (VP (VBG wearing) (NP (NP (NNS clothes)) (PP (IN of) (NP (DT the) (JJ same) (NNS colors)))))) (VP (VBP are) (PP (IN on) (NP (NP (JJ different) (NN side)) (PP (IN of) (NP (DT the) (NN tennis) (NN net))))))))
+
+two people wearing clothes of different colors are on the same side of the tennis net
+(ROOT (S (NP (NP (CD two) (NNS people)) (VP (VBG wearing) (NP (NP (NNS clothes)) (PP (IN of) (NP (JJ different) (NNS colors)))))) (VP (VBP are) (PP (IN on) (NP (NP (DT the) (JJ same) (NN side)) (PP (IN of) (NP (DT the) (NN tennis) (NN net))))))))
+
+a person spraying water on someone else and a person on a bike
+(ROOT (NP (NP (NP (DT a) (NN person)) (VP (VBG spraying) (NP (NN water)) (PP (IN on) (NP (NN someone) (JJ else))))) (CC and) (NP (NP (DT a) (NN person)) (PP (IN on) (NP (DT a) (NN bike))))))
+
+a person spraying water on a person on a bike and someone else
+(ROOT (NP (NP (NP (DT a) (NN person)) (VP (VBG spraying) (NP (NN water)) (PP (IN on) (NP (DT a) (NN person))) (PP (IN on) (NP (DT a) (NN bike))))) (CC and) (NP (NN someone) (JJ else))))
+
+gears for moving something
+(ROOT (NP (NP (NNS gears)) (PP (IN for) (S (VP (VBG moving) (NP (NN something)))))))
+
+moving gears for something
+(ROOT (S (VP (VBG moving) (NP (NNS gears)) (PP (IN for) (NP (NN something))))))
+
+two versions of one person
+(ROOT (NP (NP (CD two) (NNS versions)) (PP (IN of) (NP (CD one) (NN person)))))
+
+one version of two persons
+(ROOT (NP (NP (CD one) (NN version)) (PP (IN of) (NP (CD two) (NNS persons)))))
+
+standing on feet
+(ROOT (S (VP (VBG standing) (PP (IN on) (NP (NNS feet))))))
+
+on feet standing
+(ROOT (PP (IN on) (NP (NNS feet) (NN standing))))
+

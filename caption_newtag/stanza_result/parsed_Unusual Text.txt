@@ -1,0 +1,300 @@
+the sail rests below the water
+(ROOT (S (NP (DT the) (NN sail)) (VP (VBZ rests) (PP (IN below) (NP (DT the) (NN water))))))
+
+the water rests below the sail
+(ROOT (S (NP (DT the) (NN water)) (VP (VBZ rests) (PP (IN below) (NP (DT the) (NN sail))))))
+
+the orange lollipop is sad and the red lollipop is surprised
+(ROOT (S (S (NP (DT the) (JJ orange) (NN lollipop)) (VP (VBZ is) (ADJP (JJ sad)))) (CC and) (S (NP (DT the) (JJ red) (NN lollipop)) (VP (VBZ is) (ADJP (VBN surprised))))))
+
+the orange lollipop is surprised and the red lollipop is sad
+(ROOT (S (S (NP (DT the) (JJ orange) (NN lollipop)) (VP (VBZ is) (ADJP (JJ surprised)))) (CC and) (S (NP (DT the) (JJ red) (NN lollipop)) (VP (VBZ is) (ADJP (JJ sad))))))
+
+it wears a hat but the person doesn't
+(ROOT (S (S (NP (PRP it)) (VP (VBZ wears) (NP (DT a) (NN hat)))) (CC but) (S (NP (DT the) (NN person)) (VP (VBZ does) (RB n't)))))
+
+the person wears a hat but it doesn't
+(ROOT (S (S (NP (DT the) (NN person)) (VP (VBZ wears) (NP (DT a) (NN hat)))) (CC but) (S (NP (PRP it)) (VP (VBZ does) (RB n't)))))
+
+it hatched before it was eaten
+(ROOT (S (NP (PRP it)) (VP (VBD hatched) (SBAR (IN before) (S (NP (PRP it)) (VP (VBD was) (VP (VBN eaten))))))))
+
+it was eaten before it hatched
+(ROOT (S (NP (PRP it)) (VP (VBD was) (VP (VBN eaten) (SBAR (IN before) (S (NP (PRP it)) (VP (VBD hatched))))))))
+
+no people wear blue shirts and six people wear white shirts
+(ROOT (S (S (NP (DT no) (NNS people)) (VP (VBP wear) (NP (JJ blue) (NNS shirts)))) (CC and) (S (NP (CD six) (NNS people)) (VP (VBP wear) (NP (JJ white) (NNS shirts))))))
+
+six people wear blue shirts and no people wear white shirts
+(ROOT (S (S (NP (CD six) (NNS people)) (VP (VBP wear) (NP (JJ blue) (NNS shirts)))) (CC and) (S (NP (DT no) (NNS people)) (VP (VBP wear) (NP (JJ white) (NNS shirts))))))
+
+it ran away while they pursued
+(ROOT (S (NP (PRP it)) (VP (VBD ran) (ADVP (RB away)) (SBAR (IN while) (S (NP (PRP they)) (VP (VBD pursued)))))))
+
+they ran away while it pursued
+(ROOT (S (NP (PRP they)) (VP (VBD ran) (ADVP (RB away)) (SBAR (IN while) (S (NP (PRP it)) (VP (VBD pursued)))))))
+
+the person with the lighter shoes is holding an emoji and the person with the darker shoes isn't
+(ROOT (S (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (JJR lighter) (NNS shoes)))) (VP (VBZ is) (VP (VBG holding) (NP (DT an) (NN emoji))))) (CC and) (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (JJR darker) (NNS shoes)))) (VP (VBZ is) (RB n't)))))
+
+the person with the darker shoes is holding an emoji and the person with the lighter shoes isn't
+(ROOT (S (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (JJR darker) (NNS shoes)))) (VP (VBZ is) (VP (VBG holding) (NP (DT an) (NN emoji))))) (CC and) (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT the) (JJR lighter) (NNS shoes)))) (VP (VBZ is) (RB n't)))))
+
+spoon holding honey
+(ROOT (NP (NP (NN spoon)) (VP (VBG holding) (NP (NN honey)))))
+
+honey holding spoon
+(ROOT (NP (ADJP (NN honey) (NN holding)) (NN spoon)))
+
+a more lightly-colored dog is holding a toy next to a black dog
+(ROOT (S (NP (DT a) (ADJP (RBR more) (RB lightly) (HYPH -) (VBN colored)) (NN dog)) (VP (VBZ is) (VP (VBG holding) (NP (NP (DT a) (NN toy)) (ADVP (RB next) (PP (IN to) (NP (DT a) (JJ black) (NN dog)))))))))
+
+a black dog is holding a toy next to a more lightly-colored dog
+(ROOT (S (NP (DT a) (JJ black) (NN dog)) (VP (VBZ is) (VP (VBG holding) (NP (NP (DT a) (NN toy)) (ADVP (RB next) (PP (IN to) (NP (DT a) (ADJP (RBR more) (RB lightly) (HYPH -) (VBN colored)) (NN dog)))))))))
+
+a person is casting a shadow beside a ball
+(ROOT (S (NP (DT a) (NN person)) (VP (VBZ is) (VP (VBG casting) (NP (DT a) (NN shadow)) (PP (IN beside) (NP (DT a) (NN ball)))))))
+
+a ball is casting a shadow beside a person
+(ROOT (S (NP (DT a) (NN ball)) (VP (VBZ is) (VP (VBG casting) (NP (DT a) (NN shadow)) (PP (IN beside) (NP (DT a) (NN person)))))))
+
+some green on the ball
+(ROOT (NP (NP (DT some) (NN green)) (PP (IN on) (NP (DT the) (NN ball)))))
+
+the ball on some green
+(ROOT (NP (NP (DT the) (NN ball)) (PP (IN on) (NP (DT some) (NN green)))))
+
+plant made out of a light bulb
+(ROOT (NP (NP (NN plant)) (VP (VBN made) (PP (IN out) (PP (IN of) (NP (DT a) (NN light) (NN bulb)))))))
+
+light bulb made out of a plant
+(ROOT (NP (NP (NN light) (NN bulb)) (VP (VBN made) (PRT (IN out) (PP (IN of) (NP (DT a) (NN plant)))))))
+
+The kid throws the pancake and the adult sees it
+(ROOT (S (S (NP (DT The) (NN kid)) (VP (VBZ throws) (NP (DT the) (NN pancake)))) (CC and) (S (NP (DT the) (NN adult)) (VP (VBZ sees) (NP (PRP it))))))
+
+The kids see the pancake and the adult throws it
+(ROOT (S (S (NP (DT The) (NNS kids)) (VP (VBP see) (NP (DT the) (NN pancake)))) (CC and) (S (NP (DT the) (NN adult)) (VP (VBZ throws) (NP (PRP it))))))
+
+a person wearing a bear mask in blue on the left hand side of a person wearing a panda mask with glasses in pink
+(ROOT (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (DT a) (NN bear) (NN mask)) (PP (IN in) (NP (NN blue))) (PP (IN on) (NP (NP (DT the) (JJ left) (NN hand) (NN side)) (PP (IN of) (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (DT a) (NN panda) (NN mask)) (PP (IN with) (NP (NP (NNS glasses)) (PP (IN in) (ADJP (JJ pink)))))))))))))
+
+a person wearing a panda mask with glasses in blue on the left hand side of a person wearing a bear mask in pink
+(ROOT (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (DT a) (NN panda) (NN mask)) (PP (IN with) (NP (NP (NNS glasses)) (PP (IN in) (NP (NN blue))))) (PP (IN on) (NP (NP (DT the) (JJ left) (NN hand) (NN side)) (PP (IN of) (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (DT a) (NN bear) (NN mask)) (PP (IN in) (ADJP (JJ pink)))))))))))
+
+the cube is smaller than the shape whose lateral faces meet at a vertex
+(ROOT (S (NP (DT the) (NN cube)) (VP (VBZ is) (ADJP (ADJP (JJR smaller)) (PP (IN than) (NP (NP (DT the) (NN shape)) (SBAR (WHNP (WP$ whose) (JJ lateral) (NNS faces)) (S (VP (VBP meet) (PP (IN at) (NP (DT a) (NN vertex))))))))))))
+
+the shape whose lateral faces meet at a vertex is smaller than the cube
+(ROOT (S (NP (NP (DT the) (NN shape)) (SBAR (WHNP (WP$ whose) (JJ lateral) (NNS faces)) (S (VP (VBP meet) (PP (IN at) (NP (DT a) (NN vertex))))))) (VP (VBZ is) (ADJP (ADJP (JJR smaller)) (PP (IN than) (NP (DT the) (NN cube)))))))
+
+a person cries while another person wearing jewelry above their shoulders consoles
+(ROOT (S (NP (DT a) (NN person)) (VP (VBZ cries) (SBAR (IN while) (S (NP (DT another) (NN person)) (VP (VBG wearing) (NP (NP (NN jewelry)) (PP (IN above) (NP (PRP$ their) (NNS shoulders) (NNS consoles))))))))))
+
+a person consoles while another person wearing jewelry above their shoulders cries
+(ROOT (S (NP (DT a) (NN person)) (VP (NNS consoles) (SBAR (IN while) (S (S (NP (DT another) (NN person)) (VP (VBG wearing) (NP (NP (NN jewelry)) (PP (IN above) (NP (PRP$ their) (NNS shoulders)))))) (VP (VBZ cries)))))))
+
+a person with long hair eating a meat-based product while a person with short hair snacks on some fries
+(ROOT (S (NP (NP (DT a) (NN person)) (PP (IN with) (NP (JJ long) (NN hair)))) (VP (VBG eating) (NP (DT a) (ADJP (NN meat) (HYPH -) (VBN based)) (NN product)) (SBAR (IN while) (S (NP (NP (DT a) (NN person)) (PP (IN with) (NP (JJ short) (NN hair)))) (VP (NNS snacks) (PP (IN on) (NP (DT some) (NNS fries)))))))))
+
+a person with short hair eating a meat-based product while a person with long hair snacks on some fries
+(ROOT (S (NP (NP (DT a) (NN person)) (PP (IN with) (NP (JJ short) (NN hair)))) (VP (VBG eating) (NP (DT a) (ADJP (NN meat) (HYPH -) (VBN based)) (NN product)) (SBAR (IN while) (S (NP (NP (DT a) (NN person)) (PP (IN with) (NP (JJ long) (NN hair)))) (VP (NNS snacks) (PP (IN on) (NP (DT some) (NNS fries)))))))))
+
+the brave in the face of fear
+(ROOT (NP (NP (DT the) (JJ brave)) (PP (IN in) (NP (NP (DT the) (NN face)) (PP (IN of) (NP (NN fear)))))))
+
+fear in the face of the brave
+(ROOT (NP (NP (NN fear)) (PP (IN in) (NP (NP (DT the) (NN face)) (PP (IN of) (NP (DT the) (NN brave)))))))
+
+a normal person wishing they were a superhero
+(ROOT (NP (NP (DT a) (JJ normal) (NN person)) (VP (VBG wishing) (SBAR (S (NP (PRP they)) (VP (VBD were) (NP (DT a) (NN superhero))))))))
+
+a superhero wishing they were a normal person
+(ROOT (NP (NP (DT a) (NN superhero)) (VP (VBG wishing) (SBAR (S (NP (PRP they)) (VP (VBD were) (NP (DT a) (JJ normal) (NN person))))))))
+
+a human being on a device that intercepts the sun's rays
+(ROOT (NP (NP (DT a) (JJ human) (NN being)) (PP (IN on) (NP (NP (DT a) (NN device)) (SBAR (WHNP (WDT that)) (S (VP (VBZ intercepts) (NP (DT the) (NN sun's) (NNS rays)))))))))
+
+a device that intercepts the sun's rays on a human being
+(ROOT (NP (NP (DT a) (NN device)) (SBAR (WHNP (WDT that)) (S (VP (VBZ intercepts) (NP (DT the) (NN sun's) (NNS rays)) (PP (IN on) (NP (DT a) (JJ human) (NN being))))))))
+
+person overboard
+(ROOT (NP (NP (NN person)) (ADVP (RB overboard))))
+
+person over board
+(ROOT (NP (NP (NN person)) (PP (IN over) (NP (NN board)))))
+
+a large pink inflatable flamingo along with some other lilos on the water including one that is mostly white
+(ROOT (NP (NP (DT a) (JJ large) (JJ pink) (JJ inflatable) (NN flamingo)) (PP (IN along) (PP (IN with) (NP (NP (DT some) (JJ other) (NNS lilos)) (PP (IN on) (NP (DT the) (NN water)))))) (PP (VBG including) (NP (NP (CD one)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (ADJP (RB mostly) (JJ white)))))))))
+
+a large white inflatable flamingo along with some other lilos on the water including one that is mostly pink
+(ROOT (NP (NP (DT a) (JJ large) (JJ white) (JJ inflatable) (NN flamingo)) (PP (IN along) (PP (IN with) (NP (NP (DT some) (JJ other) (NNS lilos)) (PP (IN on) (NP (DT the) (NN water)))))) (PP (VBG including) (NP (NP (CD one)) (SBAR (WHNP (WDT that)) (S (VP (VBZ is) (ADJP (RB mostly) (JJ pink)))))))))
+
+an adult is reading to their young child
+(ROOT (S (NP (DT an) (NN adult)) (VP (VBZ is) (VP (VBG reading) (PP (IN to) (NP (PRP$ their) (JJ young) (NN child)))))))
+
+their young child is reading to an adult
+(ROOT (S (NP (PRP$ their) (JJ young) (NN child)) (VP (VBZ is) (VP (VBG reading) (PP (IN to) (NP (DT an) (NN adult)))))))
+
+there are less gloves than masks
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR less) (NNS gloves)) (PP (IN than) (NP (NNS masks)))))))
+
+there are less masks than gloves
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR less) (NNS masks)) (PP (IN than) (NP (NNS gloves)))))))
+
+star of death
+(ROOT (NP (NP (NN star)) (PP (IN of) (NP (NN death)))))
+
+death of star
+(ROOT (NP (NP (NN death)) (PP (IN of) (NP (NN star)))))
+
+a group of three people with longer hair and two with short hair in a business context
+(ROOT (NP (NP (NP (DT a) (NN group)) (PP (IN of) (NP (NP (CD three) (NNS people)) (PP (IN with) (NP (JJR longer) (NN hair)))))) (CC and) (NP (NP (CD two)) (PP (IN with) (NP (JJ short) (NN hair))) (PP (IN in) (NP (DT a) (NN business) (NN context))))))
+
+a group of two people with longer hair and three with short hair in a business context
+(ROOT (NP (NP (DT a) (NN group)) (PP (IN of) (NP (NP (NP (CD two) (NNS people)) (PP (IN with) (NP (JJR longer) (NN hair)))) (CC and) (NP (NP (CD three)) (PP (IN with) (NP (JJ short) (NN hair))) (PP (IN in) (NP (DT a) (NN business) (NN context))))))))
+
+The cold-blooded animal isn't happy in warm water
+(ROOT (S (NP (DT The) (ADJP (JJ cold) (HYPH -) (JJ blooded)) (NN animal)) (VP (VBZ is) (RB n't) (ADJP (JJ happy)) (PP (IN in) (NP (JJ warm) (NN water))))))
+
+The warm-blooded animal isn't happy in cold water
+(ROOT (S (NP (DT The) (ADJP (JJ warm) (HYPH -) (JJ blooded)) (NN animal)) (VP (VBZ is) (RB n't) (ADJP (JJ happy)) (PP (IN in) (NP (JJ cold) (NN water))))))
+
+the person is too big for the pants
+(ROOT (S (NP (DT the) (NN person)) (VP (VBZ is) (ADJP (RB too) (JJ big) (PP (IN for) (NP (DT the) (NNS pants)))))))
+
+the pants is too big for the person
+(ROOT (S (NP (DT the) (NNS pants)) (VP (VBZ is) (ADJP (RB too) (JJ big) (PP (IN for) (NP (DT the) (NN person)))))))
+
+two persons wearing one scarf
+(ROOT (NP (NP (CD two) (NNS persons)) (VP (VBG wearing) (NP (CD one) (NN scarf)))))
+
+one person wearing two scarfs
+(ROOT (NP (NP (CD one) (NN person)) (VP (VBG wearing) (NP (CD two) (NNS scarfs)))))
+
+gold for pan
+(ROOT (NP (NP (NN gold)) (PP (IN for) (NP (NN pan)))))
+
+pan for gold
+(ROOT (NP (NP (NN pan)) (PP (IN for) (NP (NN gold)))))
+
+water for plants
+(ROOT (NP (NP (NN water)) (PP (IN for) (NP (NNS plants)))))
+
+plants for water
+(ROOT (NP (NP (NNS plants)) (PP (IN for) (NP (NN water)))))
+
+outswam the person in the red swimcap
+(ROOT (S (VP (VB outswam) (NP (NP (DT the) (NN person)) (PP (IN in) (NP (DT the) (JJ red) (NN swimcap)))))))
+
+the person in the red swimcap swamout
+(ROOT (NP (NP (DT the) (NN person)) (PP (IN in) (NP (DT the) (JJ red) (NN swimcap) (NN swamout)))))
+
+manning a ship
+(ROOT (S (VP (VBG manning) (NP (DT a) (NN ship)))))
+
+shiping a mann
+(ROOT (S (VP (VBG shiping) (NP (DT a) (NN mann)))))
+
+a person wearing black shoes cleaning a bookshelf with an orange duster while a person wearing green shoes drinks wine from an orange glass and relaxes
+(ROOT (NP (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (JJ black) (NNS shoes)))) (VP (VBG cleaning) (NP (DT a) (NN bookshelf)) (PP (IN with) (NP (DT an) (JJ orange) (NN duster))) (SBAR (IN while) (S (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (JJ green) (NNS shoes)))) (VP (VP (VBZ drinks) (NP (NN wine)) (PP (IN from) (NP (DT an) (JJ orange) (NN glass)))) (CC and) (VP (VBZ relaxes))))))))
+
+a person wearing green shoes cleaning a bookshelf with an orange duster while a person wearing black shoes drinks wine from an orange glass and relaxes
+(ROOT (NP (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (JJ green) (NNS shoes)))) (VP (VBG cleaning) (NP (DT a) (NN bookshelf)) (PP (IN with) (NP (DT an) (JJ orange) (NN duster))) (SBAR (IN while) (S (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (JJ black) (NNS shoes)))) (VP (VP (VBZ drinks) (NP (NN wine)) (PP (IN from) (NP (DT an) (JJ orange) (NN glass)))) (CC and) (VP (VBZ relaxes))))))))
+
+child in front facing row of yellow rubber ducks
+(ROOT (NP (NP (NP (NN child)) (PP (IN in) (NP (NN front)))) (VP (VBG facing) (NP (NP (NN row)) (PP (IN of) (NP (NML (JJ yellow) (NN rubber)) (NNS ducks)))))))
+
+front facing child in row of yellow rubber ducks
+(ROOT (NP (NP (ADJP (RB front) (VBG facing)) (NN child)) (PP (IN in) (NP (NP (NN row)) (PP (IN of) (NP (NML (JJ yellow) (NN rubber)) (NNS ducks)))))))
+
+darker things become light in stripes
+(ROOT (S (NP (JJR darker) (NNS things)) (VP (VBP become) (ADJP (JJ light)) (PP (IN in) (NP (NNS stripes))))))
+
+light things in stripes become darker
+(ROOT (S (NP (NP (JJ light) (NNS things)) (PP (IN in) (NP (NNS stripes)))) (VP (VBP become) (ADJP (JJR darker)))))
+
+together hammering something
+(ROOT (S (ADVP (RB together)) (VP (VBG hammering) (NP (NN something)))))
+
+hammering something together
+(ROOT (S (VP (VBG hammering) (NP (NN something)) (ADVP (RB together)))))
+
+a worker in a yellow hat uses a drill to the left of where the opening in the wall is
+(ROOT (S (NP (NP (DT a) (NN worker)) (PP (IN in) (NP (DT a) (JJ yellow) (NN hat)))) (VP (VBZ uses) (NP (DT a) (NN drill)) (PP (IN to) (NP (NP (DT the) (NN left)) (PP (IN of) (SBAR (WHADVP (WRB where)) (S (NP (NP (DT the) (NN opening)) (PP (IN in) (NP (DT the) (NN wall)))) (VP (VBZ is))))))))))
+
+the opening in the wall is to the left of where a worker in a yellow hat uses a drill
+(ROOT (S (NP (NP (DT the) (NN opening)) (PP (IN in) (NP (DT the) (NN wall)))) (VP (VBZ is) (PP (IN to) (NP (NP (DT the) (NN left)) (PP (IN of) (SBAR (WHADVP (WRB where)) (S (NP (NP (DT a) (NN worker)) (PP (IN in) (NP (DT a) (JJ yellow) (NN hat)))) (VP (VBZ uses) (NP (DT a) (NN drill)))))))))))
+
+A small animal with curled hair
+(ROOT (NP (NP (DT A) (JJ small) (NN animal)) (PP (IN with) (NP (VBN curled) (NN hair)))))
+
+A curled small animal with hair
+(ROOT (NP (NP (DT A) (VBN curled) (JJ small) (NN animal)) (PP (IN with) (NP (NN hair)))))
+
+walking someone cut lines into green plants
+(ROOT (S (VP (VBG walking) (S (NP (NN someone)) (VP (VBD cut) (NP (NNS lines)) (PP (IN into) (NP (JJ green) (NNS plants))))))))
+
+someone walking lines cut into green plants
+(ROOT (S (NP (NN someone) (VBG walking) (NNS lines)) (VP (VBP cut) (PP (IN into) (NP (JJ green) (NNS plants))))))
+
+an adult putting a helmet on a child
+(ROOT (NP (NP (DT an) (NN adult)) (VP (VBG putting) (NP (DT a) (NN helmet)) (PP (IN on) (NP (DT a) (NN child))))))
+
+a child putting a helmet on an adult
+(ROOT (NP (NP (DT a) (NN child)) (VP (VBG putting) (NP (DT a) (NN helmet)) (PP (IN on) (NP (DT an) (NN adult))))))
+
+butchering white meat while wearing yellow but not red
+(ROOT (S (VP (VBG butchering) (NP (JJ white) (NN meat)) (SBAR (IN while) (S (VP (VBG wearing) (ADJP (ADJP (JJ yellow) (CC but) (RB not)) (JJ red))))))))
+
+butchering red meat while wearing white but not yellow
+(ROOT (S (VP (VBG butchering) (NP (JJ red) (NN meat)) (SBAR (IN while) (S (VP (VBG wearing) (ADJP (ADJP (JJ white) (CC but) (RB not)) (JJ yellow))))))))
+
+some are parking in a train
+(ROOT (S (NP (DT some)) (VP (VBP are) (VP (VBG parking) (PP (IN in) (NP (DT a) (NN train)))))))
+
+some are training in a park
+(ROOT (S (NP (DT some)) (VP (VBP are) (VP (VBG training) (PP (IN in) (NP (DT a) (NN park)))))))
+
+a person near water using a lasso
+(ROOT (NP (NP (DT a) (NN person)) (PP (IN near) (NP (NP (NN water)) (VP (VBG using) (NP (DT a) (NN lasso)))))))
+
+near a person using a water lasso
+(ROOT (PP (IN near) (NP (NP (DT a) (NN person)) (VP (VBG using) (NP (DT a) (NN water) (NN lasso))))))
+
+a toy herbivore stands on top of at least one toy carnivore
+(ROOT (S (NP (DT a) (NN toy) (NN herbivore)) (VP (VBZ stands) (PP (IN on) (NP (NP (NN top)) (PP (IN of) (NP (QP (ADVP (IN at) (JJS least)) (CD one)) (NN toy) (NN carnivore))))))))
+
+at least one toy herbivore stands on top of a toy carnivore
+(ROOT (S (NP (QP (ADVP (IN at) (JJS least)) (CD one)) (NN toy) (NN herbivore)) (VP (VBZ stands) (PP (IN on) (NP (NP (NN top)) (PP (IN of) (NP (DT a) (NN toy) (NN carnivore))))))))
+
+a person smiles at another person wearing a checked shirt who is hitting a ping pong ball
+(ROOT (S (NP (DT a) (NN person)) (VP (VBZ smiles) (PP (IN at) (NP (NP (DT another) (NN person)) (VP (VBG wearing) (NP (NP (DT a) (VBN checked) (NN shirt)) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (VP (VBG hitting) (NP (DT a) (NML (NN ping) (NN pong)) (NN ball)))))))))))))
+
+a person wearing a checked shirt smiles at another person who is hitting a ping pong ball
+(ROOT (S (NP (NP (DT a) (NN person)) (VP (VBG wearing) (NP (DT a) (VBN checked) (NN shirt)))) (VP (VBZ smiles) (PP (IN at) (NP (NP (DT another) (NN person)) (SBAR (WHNP (WP who)) (S (VP (VBZ is) (VP (VBG hitting) (NP (DT a) (NML (NN ping) (NN pong)) (NN ball)))))))))))
+
+two versions of one person
+(ROOT (NP (NP (CD two) (NNS versions)) (PP (IN of) (NP (CD one) (NN person)))))
+
+one version of two persons
+(ROOT (NP (NP (CD one) (NN version)) (PP (IN of) (NP (CD two) (NNS persons)))))
+
+There are not pink flowers below the bird with yellow head feathers
+(ROOT (S (NP (EX There)) (VP (VBP are) (RB not) (NP (NP (JJ pink) (NNS flowers)) (PP (IN below) (NP (NP (DT the) (NN bird)) (PP (IN with) (NP (NML (JJ yellow) (NN head)) (NNS feathers)))))))))
+
+There are pink flowers not below the bird with yellow head feathers
+(ROOT (S (NP (EX There)) (VP (VBP are) (NP (NP (JJ pink) (NNS flowers)) (PP (RB not) (IN below) (NP (NP (DT the) (NN bird)) (PP (IN with) (NP (NML (JJ yellow) (NN head)) (NNS feathers)))))))))
+
+two bodies share with one head
+(ROOT (S (NP (CD two) (NNS bodies)) (VP (VBP share) (PP (IN with) (NP (CD one) (NN head))))))
+
+one bodies share with two head
+(ROOT (S (NP (CD one) (NNS bodies)) (VP (VBP share) (PP (IN with) (NP (CD two) (NN head))))))
+
+standing on feet
+(ROOT (S (VP (VBG standing) (PP (IN on) (NP (NNS feet))))))
+
+on feet standing
+(ROOT (PP (IN on) (NP (NNS feet) (NN standing))))
+

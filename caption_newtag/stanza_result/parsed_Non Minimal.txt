@@ -1,0 +1,180 @@
+it's a fire truck
+(ROOT (S (NP (PRP it)) (VP (VBZ 's) (NP (DT a) (NN fire) (NN truck)))))
+
+it's a truck fire
+(ROOT (S (NP (PRP it)) (VP (VBZ 's) (NP (DT a) (NN truck) (NN fire)))))
+
+watching the present
+(ROOT (S (VP (VBG watching) (NP (DT the) (NN present)))))
+
+presenting the watch
+(ROOT (S (VP (VBG presenting) (NP (DT the) (NN watch)))))
+
+walking out on a rock
+(ROOT (S (VP (VBG walking) (PRT (RP out)) (PP (IN on) (NP (DT a) (NN rock))))))
+
+rocking out on a walk
+(ROOT (S (VP (VBG rocking) (PRT (RP out)) (PP (IN on) (NP (DT a) (NN walk))))))
+
+handing a hammer
+(ROOT (S (VP (VBG handing) (NP (DT a) (NN hammer)))))
+
+hammering a hand
+(ROOT (S (VP (VBG hammering) (NP (DT a) (NN hand)))))
+
+leaves its shedding
+(ROOT (S (VP (VBZ leaves) (NP (PRP$ its) (NN shedding)))))
+
+shedding its leaves
+(ROOT (S (VP (VBG shedding) (NP (PRP$ its) (NNS leaves)))))
+
+there is a split banana
+(ROOT (S (NP (EX there)) (VP (VBZ is) (NP (DT a) (JJ split) (NN banana)))))
+
+there is a banana split
+(ROOT (S (NP (EX there)) (VP (VBZ is) (NP (DT a) (NN banana) (NN split)))))
+
+boat house
+(ROOT (NP (NN boat) (NN house)))
+
+house boat
+(ROOT (NP (NN house) (NN boat)))
+
+check a rip
+(ROOT (S (VP (VB check) (NP (DT a) (NN rip)))))
+
+rip a check
+(ROOT (S (VP (VB rip) (NP (DT a) (NN check)))))
+
+mind in the clouds
+(ROOT (S (VP (VB mind) (PP (IN in) (NP (DT the) (NNS clouds))))))
+
+clouds in the mind
+(ROOT (NP (NP (NNS clouds)) (PP (IN in) (NP (DT the) (NN mind)))))
+
+You can catch more flies with honey than you can with vinegar
+(ROOT (S (NP (PRP You)) (VP (MD can) (VP (VB catch) (NP (NP (NP (JJR more) (NNS flies)) (PP (IN with) (NP (NN honey)))) (SBAR (IN than) (S (NP (PRP you)) (VP (MD can) (PP (IN with) (NP (NN vinegar)))))))))))
+
+You can catch more flies with vinegar than you can with honey
+(ROOT (S (NP (PRP You)) (VP (MD can) (VP (VB catch) (NP (NP (NP (JJR more) (NNS flies)) (PP (IN with) (NP (NN vinegar)))) (SBAR (IN than) (S (NP (PRP you)) (VP (MD can) (PP (IN with) (NP (NN honey)))))))))))
+
+the brave in the face of fear
+(ROOT (NP (NP (DT the) (JJ brave)) (PP (IN in) (NP (NP (DT the) (NN face)) (PP (IN of) (NP (NN fear)))))))
+
+fear in the face of the brave
+(ROOT (NP (NP (NN fear)) (PP (IN in) (NP (NP (DT the) (NN face)) (PP (IN of) (NP (DT the) (NN brave)))))))
+
+I need my strength back
+(ROOT (S (NP (PRP I)) (VP (VBP need) (NP (PRP$ my) (NN strength)) (ADVP (RB back)))))
+
+I need my back strength
+(ROOT (S (NP (PRP I)) (VP (VBP need) (NP (PRP$ my) (NN back) (NN strength)))))
+
+fish flying
+(ROOT (NP (NN fish) (VBG flying)))
+
+fly fishing
+(ROOT (S (VP (VB fly) (NP (NN fishing)))))
+
+a person is in the tube
+(ROOT (S (NP (DT a) (NN person)) (VP (VBZ is) (PP (IN in) (NP (DT the) (NN tube))))))
+
+a tube is in the person
+(ROOT (S (NP (DT a) (NN tube)) (VP (VBZ is) (PP (IN in) (NP (DT the) (NN person))))))
+
+person overboard
+(ROOT (NP (NP (NN person)) (ADVP (RB overboard))))
+
+person over board
+(ROOT (NP (NP (NN person)) (PP (IN over) (NP (NN board)))))
+
+cars of bits
+(ROOT (NP (NP (NNS cars)) (PP (IN of) (NP (NNS bits)))))
+
+bits of cars
+(ROOT (NP (NP (NNS bits)) (PP (IN of) (NP (NNS cars)))))
+
+space in a star
+(ROOT (NP (NP (NN space)) (PP (IN in) (NP (DT a) (NN star)))))
+
+a star in space
+(ROOT (NP (NP (DT a) (NN star)) (PP (IN in) (NP (NN space)))))
+
+star of death
+(ROOT (NP (NP (NN star)) (PP (IN of) (NP (NN death)))))
+
+death of star
+(ROOT (NP (NP (NN death)) (PP (IN of) (NP (NN star)))))
+
+someone babys a pet
+(ROOT (NP (NP (NN someone) (NNS babys)) (NP (DT a) (NN pet))))
+
+someone pets a baby
+(ROOT (S (NP (NN someone)) (VP (VBZ pets) (NP (DT a) (NN baby)))))
+
+the businessperson's down fall
+(ROOT (NP (NP (DT the) (NN businessperson) (POS 's)) (PP (JJ down) (NP (NN fall)))))
+
+the businessperson's fall down
+(ROOT (NP (NP (NP (DT the) (NN businessperson) (POS 's)) (NN fall)) (ADVP (RB down))))
+
+outswam the person in the red swimcap
+(ROOT (S (VP (VB outswam) (NP (NP (DT the) (NN person)) (PP (IN in) (NP (DT the) (JJ red) (NN swimcap)))))))
+
+the person in the red swimcap swamout
+(ROOT (NP (NP (DT the) (NN person)) (PP (IN in) (NP (DT the) (JJ red) (NN swimcap) (NN swamout)))))
+
+manning a ship
+(ROOT (S (VP (VBG manning) (NP (DT a) (NN ship)))))
+
+shiping a mann
+(ROOT (S (VP (VBG shiping) (NP (DT a) (NN mann)))))
+
+a mouse is touching a dog
+(ROOT (S (NP (DT a) (NN mouse)) (VP (VBZ is) (VP (VBG touching) (NP (DT a) (NN dog))))))
+
+a dog is touching a mouse
+(ROOT (S (NP (DT a) (NN dog)) (VP (VBZ is) (VP (VBG touching) (NP (DT a) (NN mouse))))))
+
+fishing for compliments
+(ROOT (S (VP (NN fishing) (PP (IN for) (NP (NNS compliments))))))
+
+compliments for fishing
+(ROOT (NP (NP (NNS compliments)) (PP (IN for) (NP (NN fishing)))))
+
+that person dusting off their hands
+(ROOT (S (NP (DT that) (NN person)) (VP (VBG dusting) (PRT (RP off)) (NP (PRP$ their) (NNS hands)))))
+
+that person hands off their dusting
+(ROOT (S (NP (DT that) (NN person)) (VP (VBZ hands) (PRT (RP off)) (NP (PRP$ their) (NN dusting)))))
+
+one ear that some donkey is whispering a secret into
+(ROOT (NP (NP (CD one) (NN ear)) (SBAR (WHNP (WDT that)) (S (NP (DT some) (NN donkey)) (VP (VBZ is) (VP (VBG whispering) (NP (DT a) (NN secret)) (PP (IN into))))))))
+
+donkey ear that some one is whispering a secret into
+(ROOT (NP (NN donkey) (NN ear) (SBAR (IN that) (S (NP (DT some) (NN one)) (VP (VBZ is) (VP (VBG whispering) (NP (DT a) (NN secret)) (PP (IN into))))))))
+
+some are parking in a train
+(ROOT (S (NP (DT some)) (VP (VBP are) (VP (VBG parking) (PP (IN in) (NP (DT a) (NN train)))))))
+
+some are training in a park
+(ROOT (S (NP (DT some)) (VP (VBP are) (VP (VBG training) (PP (IN in) (NP (DT a) (NN park)))))))
+
+an athlete running on water
+(ROOT (NP (NP (DT an) (NN athlete)) (VP (VBG running) (PP (IN on) (NP (NN water))))))
+
+water running on an athlete
+(ROOT (NP (NP (NN water)) (VP (VBG running) (PP (IN on) (NP (DT an) (NN athlete))))))
+
+racing over it
+(ROOT (S (VP (NN racing) (PP (IN over) (NP (PRP it))))))
+
+racing it over
+(ROOT (S (VP (VBG racing) (NP (PRP it)) (ADVP (RB over)))))
+
+someone is overdoing it
+(ROOT (S (NP (NN someone)) (VP (VBZ is) (VP (VBG overdoing) (NP (PRP it))))))
+
+someone is doing it over
+(ROOT (S (NP (NN someone)) (VP (VBZ is) (VP (VBG doing) (NP (PRP it)) (PRT (RB over))))))
+

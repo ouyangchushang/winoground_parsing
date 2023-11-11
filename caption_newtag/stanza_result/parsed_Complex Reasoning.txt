@@ -1,0 +1,468 @@
+there are fewer forks than spoons
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR fewer) (NNS forks)) (PP (IN than) (NP (NNS spoons)))))))
+
+there are fewer spoons than forks
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR fewer) (NNS spoons)) (PP (IN than) (NP (NNS forks)))))))
+
+the more content person has the healthier food and the less content person has the less healthy food
+(ROOT (S (S (NP (NP (DT the) (JJR more)) (NN content) (NN person)) (VP (VBZ has) (NP (DT the) (JJR healthier) (NN food)))) (CC and) (S (NP (DT the) (ADJP (JJR less) (NN content)) (NN person)) (VP (VBZ has) (NP (DT the) (ADJP (RBR less) (JJ healthy)) (NN food))))))
+
+the less content person has the healthier food and the more content person has the less healthy food
+(ROOT (S (S (NP (DT the) (ADJP (JJR less) (NN content)) (NN person)) (VP (VBZ has) (NP (DT the) (JJR healthier) (NN food)))) (CC and) (S (NP (DT the) (JJR more)) (NP (NN content) (NN person)) (VP (VBZ has) (NP (DT the) (ADJP (RBR less) (JJ healthy)) (NN food))))))
+
+the heavy oncoming traffic is contrasted with the light outgoing traffic
+(ROOT (S (NP (DT the) (JJ heavy) (NN oncoming) (NN traffic)) (VP (VBZ is) (VP (VBN contrasted) (PP (IN with) (NP (DT the) (NN light) (JJ outgoing) (NN traffic)))))))
+
+the light oncoming traffic is contrasted with the heavy outgoing traffic
+(ROOT (S (NP (DT the) (NN light) (JJ oncoming) (NN traffic)) (VP (VBZ is) (VP (VBN contrasted) (PP (IN with) (NP (DT the) (JJ heavy) (JJ outgoing) (NN traffic)))))))
+
+a person is drinking now and eating later
+(ROOT (S (NP (DT a) (NN person)) (VP (VBZ is) (VP (VP (VBG drinking) (ADVP (RB now))) (CC and) (VP (VBG eating) (ADVP (RBR later)))))))
+
+a person is drinking later and eating now
+(ROOT (S (NP (DT a) (NN person)) (VP (VBZ is) (VP (VP (VBG drinking) (ADVP (RBR later))) (CC and) (VP (VBG eating) (ADVP (RB now)))))))
+
+the green one can fit inside the blue one and the blue one can fit outside the green one
+(ROOT (S (S (NP (DT the) (JJ green) (NN one)) (VP (MD can) (VP (VB fit) (PP (IN inside) (NP (DT the) (JJ blue) (NN one)))))) (CC and) (S (NP (DT the) (JJ blue) (NN one)) (VP (MD can) (VP (VB fit) (PP (IN outside) (NP (DT the) (JJ green) (NN one))))))))
+
+the green one can fit outside the blue one and the blue one can fit inside the green one
+(ROOT (S (S (NP (DT the) (JJ green) (NN one)) (VP (MD can) (VP (VB fit) (PP (IN outside) (NP (DT the) (JJ blue) (NN one)))))) (CC and) (S (NP (DT the) (JJ blue) (NN one)) (VP (MD can) (VP (VB fit) (PP (IN inside) (NP (DT the) (JJ green) (NN one))))))))
+
+it hatched before it was eaten
+(ROOT (S (NP (PRP it)) (VP (VBD hatched) (SBAR (IN before) (S (NP (PRP it)) (VP (VBD was) (VP (VBN eaten))))))))
+
+it was eaten before it hatched
+(ROOT (S (NP (PRP it)) (VP (VBD was) (VP (VBN eaten) (SBAR (IN before) (S (NP (PRP it)) (VP (VBD hatched))))))))
+
+they hold a suitcase handle with their left hand and they hold a passport with their right hand
+(ROOT (S (S (NP (PRP they)) (VP (VBP hold) (NP (DT a) (NN suitcase) (NN handle)) (PP (IN with) (NP (PRP$ their) (JJ left) (NN hand))))) (CC and) (S (NP (PRP they)) (VP (VBP hold) (NP (DT a) (NN passport)) (PP (IN with) (NP (PRP$ their) (JJ right) (NN hand)))))))
+
+they hold a passport with their left hand and they hold a suitcase handle with their right hand
+(ROOT (S (S (NP (PRP they)) (VP (VBP hold) (NP (DT a) (NN passport)) (PP (IN with) (NP (PRP$ their) (JJ left) (NN hand))))) (CC and) (S (NP (PRP they)) (VP (VBP hold) (NP (DT a) (NN suitcase) (NN handle)) (PP (IN with) (NP (PRP$ their) (JJ right) (NN hand)))))))
+
+a diagram showing movement from right to left
+(ROOT (NP (NP (DT a) (NN diagram)) (VP (VBG showing) (NP (NP (NN movement)) (PP (IN from) (NP (NN right))) (S (VP (TO to) (VP (VB left))))))))
+
+a diagram showing movement from left to right
+(ROOT (NP (NP (DT a) (NN diagram)) (VP (VBG showing) (NP (NP (NN movement)) (PP (IN from) (NP (NN left)))) (PP (IN to) (ADVP (RB right))))))
+
+two boats and one direction down the stream
+(ROOT (NP (NP (CD two) (NNS boats)) (CC and) (NP (NP (CD one) (NN direction)) (PP (IN down) (NP (DT the) (NN stream))))))
+
+one boat and two directions down the stream
+(ROOT (NP (NP (CD one) (NN boat)) (CC and) (NP (NP (CD two) (NNS directions)) (PP (IN down) (NP (DT the) (NN stream))))))
+
+they are using no bait but still got fish
+(ROOT (S (NP (PRP they)) (VP (VP (VBP are) (VP (VBG using) (NP (DT no) (NN bait)))) (CC but) (ADVP (RB still)) (VP (VBD got) (NP (NNS fish))))))
+
+they are using bait but still got no fish
+(ROOT (S (NP (PRP they)) (VP (VP (VBP are) (VP (VBG using) (NP (NN bait)))) (CC but) (ADVP (RB still)) (VP (VBD got) (NP (DT no) (NN fish))))))
+
+the lion is loud and the lionness is quiet
+(ROOT (S (S (NP (DT the) (NN lion)) (VP (VBZ is) (ADJP (JJ loud)))) (CC and) (S (NP (DT the) (NN lionness)) (VP (VBZ is) (ADJP (JJ quiet))))))
+
+the lion is quiet and the lionness is loud
+(ROOT (S (S (NP (DT the) (NN lion)) (VP (VBZ is) (ADJP (JJ quiet)))) (CC and) (S (NP (DT the) (NN lionness)) (VP (VBZ is) (ADJP (JJ loud))))))
+
+there are more silver coins than gold coins
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR more) (JJ silver) (NNS coins)) (PP (IN than) (NP (NN gold) (NNS coins)))))))
+
+there are more gold coins than silver coins
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR more) (NN gold) (NNS coins)) (PP (IN than) (NP (NN silver) (NNS coins)))))))
+
+the children are being quiet while the adult is loud
+(ROOT (S (NP (DT the) (NNS children)) (VP (VBP are) (VP (VBG being) (ADJP (JJ quiet)) (SBAR (IN while) (S (NP (DT the) (NN adult)) (VP (VBZ is) (ADJP (JJ loud)))))))))
+
+the children are being loud while the adult is quiet
+(ROOT (S (NP (DT the) (NNS children)) (VP (VBP are) (VP (VBG being) (ADJP (JJ loud)) (SBAR (IN while) (S (NP (DT the) (NN adult)) (VP (VBZ is) (ADJP (JJ quiet)))))))))
+
+circular food on heart-shaped wood
+(ROOT (NP (NP (JJ circular) (NN food)) (PP (IN on) (NP (ADJP (NN heart) (HYPH -) (VBN shaped)) (NN wood)))))
+
+heart-shaped food on circular wood
+(ROOT (NP (NP (ADJP (NN heart) (HYPH -) (VBN shaped)) (NN food)) (PP (IN on) (NP (JJ circular) (NN wood)))))
+
+the fruit is heavy while the junk food is light
+(ROOT (S (NP (DT the) (NN fruit)) (VP (VBZ is) (ADJP (JJ heavy)) (SBAR (IN while) (S (NP (DT the) (NN junk) (NN food)) (VP (VBZ is) (ADJP (JJ light))))))))
+
+the fruit is light while the junk food is heavy
+(ROOT (S (NP (DT the) (NN fruit)) (VP (VBZ is) (ADJP (JJ light)) (SBAR (IN while) (S (NP (DT the) (NN junk) (NN food)) (VP (VBZ is) (ADJP (JJ heavy))))))))
+
+the cup on the left is filled first and the cup on the right is filled second
+(ROOT (S (S (NP (NP (DT the) (NN cup)) (PP (IN on) (NP (DT the) (NN left)))) (VP (VBZ is) (VP (VBN filled) (ADVP (RB first))))) (CC and) (S (NP (NP (DT the) (NN cup)) (PP (IN on) (NP (DT the) (NN right)))) (VP (VBZ is) (VP (VBN filled) (JJ second))))))
+
+the cup on the left is filled second and the cup on the right is filled first
+(ROOT (S (S (NP (NP (DT the) (NN cup)) (PP (IN on) (NP (DT the) (NN left)))) (VP (VBZ is) (VP (VBN filled) (S (ADVP (JJ second)))))) (CC and) (S (NP (NP (DT the) (NN cup)) (PP (IN on) (NP (DT the) (NN right)))) (VP (VBZ is) (VP (VBN filled) (ADVP (RB first)))))))
+
+three white and two brown eggs
+(ROOT (NP (CD three) (ADJP (JJ white) (CC and) (CD two)) (JJ brown) (NNS eggs)))
+
+two white and three brown eggs
+(ROOT (NP (CD two) (ADJP (JJ white) (CC and) (CD three)) (JJ brown) (NNS eggs)))
+
+there are more hats than people
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR more) (NNS hats)) (PP (IN than) (NP (NNS people)))))))
+
+there are more people than hats
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR more) (NNS people)) (PP (IN than) (NP (NNS hats)))))))
+
+there are more people than stools
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR more) (NNS people)) (PP (IN than) (NP (NNS stools)))))))
+
+there are more stools than people
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR more) (NNS stools)) (PP (IN than) (NP (NNS people)))))))
+
+the person reached the base before the ball
+(ROOT (S (NP (DT the) (NN person)) (VP (VBD reached) (NP (DT the) (NN base)) (PP (IN before) (NP (DT the) (NN ball))))))
+
+the ball reached the base before the person
+(ROOT (S (NP (DT the) (NN ball)) (VP (VBD reached) (NP (DT the) (NN base)) (PP (IN before) (NP (DT the) (NN person))))))
+
+the shrimp are peeled then the shrimp are cooked
+(ROOT (S (NP (DT the) (NN shrimp)) (VP (VBP are) (VP (VBN peeled) (ADVP (RB then)) (SBAR (S (NP (DT the) (NN shrimp)) (VP (VBP are) (VP (VBN cooked)))))))))
+
+the shrimp are cooked then the shrimp are peeled
+(ROOT (S (NP (DT the) (NN shrimp)) (VP (VBP are) (VP (VBN cooked) (ADVP (RB then)) (SBAR (S (NP (DT the) (NN shrimp)) (VP (VBP are) (VP (VBN peeled)))))))))
+
+the coffee is poured before it is ground
+(ROOT (S (NP (DT the) (NN coffee)) (VP (VBZ is) (VP (VBN poured) (SBAR (IN before) (S (NP (PRP it)) (VP (VBZ is) (ADJP (NN ground)))))))))
+
+it is ground before the coffee is poured
+(ROOT (S (NP (PRP it)) (VP (VBZ is) (NP (NN ground)) (SBAR (IN before) (S (NP (DT the) (NN coffee)) (VP (VBZ is) (VP (VBN poured))))))))
+
+the potato is washed and then it is cut
+(ROOT (S (S (NP (DT the) (NN potato)) (VP (VBZ is) (VP (VBN washed)))) (CC and) (S (ADVP (RB then)) (NP (PRP it)) (VP (VBZ is) (VP (VBN cut))))))
+
+the potato is cut and then it is washed
+(ROOT (S (S (NP (DT the) (NN potato)) (VP (VBZ is) (VP (VBN cut)))) (CC and) (S (ADVP (RB then)) (NP (PRP it)) (VP (VBZ is) (VP (VBN washed))))))
+
+the banana is peeled then it is sliced
+(ROOT (S (NP (DT the) (NN banana)) (VP (VBZ is) (VP (VBN peeled) (ADVP (RB then)) (SBAR (S (NP (PRP it)) (VP (VBZ is) (ADJP (VBN sliced)))))))))
+
+the banana is sliced then it is peeled
+(ROOT (S (NP (DT the) (NN banana)) (VP (VBZ is) (VP (VBN sliced) (ADVP (RB then)) (SBAR (S (NP (PRP it)) (VP (VBZ is) (ADJP (VBN peeled)))))))))
+
+painting gray walls white
+(ROOT (S (VP (NN painting) (NP (JJ gray) (NNS walls)) (ADJP (JJ white)))))
+
+painting white walls gray
+(ROOT (S (VP (NN painting) (NP (JJ white) (NNS walls)) (S (ADJP (NN gray))))))
+
+a small spherical object is heavier than a big spherical object
+(ROOT (S (NP (DT a) (JJ small) (JJ spherical) (NN object)) (VP (VBZ is) (ADJP (ADJP (JJR heavier)) (PP (IN than) (NP (DT a) (JJ big) (JJ spherical) (NN object)))))))
+
+a big spherical object is heavier than a small spherical object
+(ROOT (S (NP (DT a) (JJ big) (JJ spherical) (NN object)) (VP (VBZ is) (ADJP (ADJP (JJR heavier)) (PP (IN than) (NP (DT a) (JJ small) (JJ spherical) (NN object)))))))
+
+white land and black water
+(ROOT (NP (NP (JJ white) (NN land)) (CC and) (NP (JJ black) (NN water))))
+
+black land and white water
+(ROOT (NP (NP (JJ black) (NN land)) (CC and) (NP (JJ white) (NN water))))
+
+the cube is smaller than the shape whose lateral faces meet at a vertex
+(ROOT (S (NP (DT the) (NN cube)) (VP (VBZ is) (ADJP (ADJP (JJR smaller)) (PP (IN than) (NP (NP (DT the) (NN shape)) (SBAR (WHNP (WP$ whose) (JJ lateral) (NNS faces)) (S (VP (VBP meet) (PP (IN at) (NP (DT a) (NN vertex))))))))))))
+
+the shape whose lateral faces meet at a vertex is smaller than the cube
+(ROOT (S (NP (NP (DT the) (NN shape)) (SBAR (WHNP (WP$ whose) (JJ lateral) (NNS faces)) (S (VP (VBP meet) (PP (IN at) (NP (DT a) (NN vertex))))))) (VP (VBZ is) (ADJP (ADJP (JJR smaller)) (PP (IN than) (NP (DT the) (NN cube)))))))
+
+more bicycles than cars
+(ROOT (NP (NP (JJR more) (NNS bicycles)) (PP (IN than) (NP (NNS cars)))))
+
+more cars than bicycles
+(ROOT (NP (NP (JJR more) (NNS cars)) (PP (IN than) (NP (NNS bicycles)))))
+
+there are more apples than pears
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR more) (NNS apples)) (PP (IN than) (NP (NNS pears)))))))
+
+there are more pears than apples
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR more) (NNS pears)) (PP (IN than) (NP (NNS apples)))))))
+
+the one in front is faster than the other one
+(ROOT (S (NP (NP (DT the) (NN one)) (PP (IN in) (NP (NN front)))) (VP (VBZ is) (ADJP (ADJP (JJR faster)) (PP (IN than) (NP (DT the) (JJ other) (NN one)))))))
+
+the other one is faster than the one in front
+(ROOT (S (NP (DT the) (JJ other) (NN one)) (VP (VBZ is) (ADJP (ADJP (JJR faster)) (PP (IN than) (NP (NP (DT the) (NN one)) (PP (IN in) (NP (NN front)))))))))
+
+You can catch more flies with honey than you can with vinegar
+(ROOT (S (NP (PRP You)) (VP (MD can) (VP (VB catch) (NP (NP (NP (JJR more) (NNS flies)) (PP (IN with) (NP (NN honey)))) (SBAR (IN than) (S (NP (PRP you)) (VP (MD can) (PP (IN with) (NP (NN vinegar)))))))))))
+
+You can catch more flies with vinegar than you can with honey
+(ROOT (S (NP (PRP You)) (VP (MD can) (VP (VB catch) (NP (NP (NP (JJR more) (NNS flies)) (PP (IN with) (NP (NN vinegar)))) (SBAR (IN than) (S (NP (PRP you)) (VP (MD can) (PP (IN with) (NP (NN honey)))))))))))
+
+It starts with "A" and ends with "Z"
+(ROOT (S (NP (PRP It)) (VP (VP (VBZ starts) (PP (IN with) (NP (`` ") (NN A) ('' ")))) (CC and) (VP (VBZ ends) (PP (IN with) (NP (`` ") (NNP Z) ('' ")))))))
+
+It starts with "Z" and ends with "A"
+(ROOT (S (NP (PRP It)) (VP (VP (VBZ starts) (PP (IN with) (NP (`` ") (NNP Z) ('' ")))) (CC and) (VP (VBZ ends) (PP (IN with) (NP (`` ") (NN A) ('' ")))))))
+
+an object that rolls is on some wood
+(ROOT (S (NP (NP (DT an) (NN object)) (SBAR (WHNP (WDT that)) (S (VP (VBZ rolls))))) (VP (VBZ is) (PP (IN on) (NP (DT some) (NN wood))))))
+
+some wood is on an object that rolls
+(ROOT (S (NP (DT some) (NN wood)) (VP (VBZ is) (PP (IN on) (NP (NP (DT an) (NN object)) (SBAR (WHNP (WDT that)) (S (VP (VBZ rolls)))))))))
+
+a cat viewing a human on a screen
+(ROOT (NP (NP (DT a) (NN cat)) (VP (VBG viewing) (NP (NP (DT a) (NN human)) (PP (IN on) (NP (DT a) (NN screen)))))))
+
+a human viewing a cat on a screen
+(ROOT (NP (NP (DT a) (NN human)) (VP (VBG viewing) (NP (NP (DT a) (NN cat)) (PP (IN on) (NP (DT a) (NN screen)))))))
+
+a mike in the right hand while raising the left
+(ROOT (S (NP (NP (DT a) (NN mike)) (PP (IN in) (NP (DT the) (JJ right) (NN hand)))) (SBAR (IN while) (S (VP (VBG raising) (NP (DT the) (NN left)))))))
+
+a mike in the left hand while raising the right
+(ROOT (S (NP (NP (DT a) (NN mike)) (PP (IN in) (NP (DT the) (JJ left) (NN hand)))) (SBAR (IN while) (S (VP (VBG raising) (NP (DT the) (NN right)))))))
+
+more humans than phones
+(ROOT (NP (NP (JJR more) (NNS humans)) (PP (IN than) (NP (NNS phones)))))
+
+more phones than humans
+(ROOT (NP (NP (JJR more) (NNS phones)) (PP (IN than) (NP (NNS humans)))))
+
+more red buttons than blue
+(ROOT (NP (NP (JJR more) (JJ red) (NNS buttons)) (PP (IN than) (ADJP (JJ blue)))))
+
+more blue buttons than red
+(ROOT (NP (NP (JJR more) (JJ blue) (NNS buttons)) (PP (IN than) (ADJP (JJ red)))))
+
+seat numbers increasing from left to right
+(ROOT (NP (NP (NN seat) (NNS numbers)) (VP (VBG increasing) (PP (IN from) (NP (NN left))) (PP (IN to) (ADVP (RB right))))))
+
+seat numbers increasing from right to left
+(ROOT (NP (NP (NN seat) (NNS numbers)) (VP (VBG increasing) (PP (IN from) (NP (NN right))) (S (VP (TO to) (VP (VB left)))))))
+
+the number on the right is larger than the number on the left
+(ROOT (S (NP (NP (DT the) (NN number)) (PP (IN on) (NP (DT the) (NN right)))) (VP (VBZ is) (ADJP (ADJP (JJR larger)) (PP (IN than) (NP (NP (DT the) (NN number)) (PP (IN on) (NP (DT the) (NN left)))))))))
+
+the number on the left is larger than the number on the right
+(ROOT (S (NP (NP (DT the) (NN number)) (PP (IN on) (NP (DT the) (NN left)))) (VP (VBZ is) (ADJP (ADJP (JJR larger)) (PP (IN than) (NP (NP (DT the) (NN number)) (PP (IN on) (NP (DT the) (NN right)))))))))
+
+first the cream, then the jam
+(ROOT (S (ADVP (RB first)) (NP (NP (DT the) (NN cream)) (, ,) (RB then) (NP (DT the) (NN jam)))))
+
+first the jam, then the cream
+(ROOT (S (ADVP (RB first)) (NP (NP (DT the) (NN jam)) (, ,) (RB then) (NP (DT the) (NN cream)))))
+
+there are more eyes in the image than there are on a typical human
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (NP (JJR more) (NNS eyes)) (PP (IN in) (NP (DT the) (NN image)))) (SBAR (IN than) (S (NP (EX there)) (VP (VBP are) (PP (IN on) (NP (DT a) (JJ typical) (NN human))))))))))
+
+there are more eyes on a typical human than there are in the image
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (NP (JJR more) (NNS eyes)) (PP (IN on) (NP (DT a) (JJ typical) (NN human)))) (SBAR (IN than) (S (NP (EX there)) (VP (VBP are) (PP (IN in) (NP (DT the) (NN image))))))))))
+
+the shopping basket is full and the shelves on the person's right are empty
+(ROOT (S (S (NP (DT the) (NN shopping) (NN basket)) (VP (VBZ is) (ADJP (JJ full)))) (CC and) (S (NP (NP (DT the) (NNS shelves)) (PP (IN on) (NP (NP (DT the) (NN person) (POS 's)) (NN right)))) (VP (VBP are) (ADJP (JJ empty))))))
+
+the shelves on the person's right are full and the shopping basket is empty
+(ROOT (S (S (NP (NP (DT the) (NNS shelves)) (PP (IN on) (NP (NP (DT the) (NN person) (POS 's)) (NN right)))) (VP (VBP are) (ADJP (JJ full)))) (CC and) (S (NP (DT the) (NN shopping) (NN basket)) (VP (VBZ is) (ADJP (JJ empty))))))
+
+painting the white wall red
+(ROOT (S (VP (VBG painting) (NP (NP (DT the) (JJ white) (NN wall)) (ADJP (JJ red))))))
+
+painting the red wall white
+(ROOT (S (VP (VBG painting) (NP (NP (DT the) (JJ red) (NN wall)) (ADJP (JJ white))))))
+
+I had cleaned my car
+(ROOT (S (NP (PRP I)) (VP (VBD had) (VP (VBN cleaned) (NP (PRP$ my) (NN car))))))
+
+I had my car cleaned
+(ROOT (S (NP (PRP I)) (VP (VBD had) (S (NP (PRP$ my) (NN car)) (VP (VBN cleaned))))))
+
+there are less gloves than masks
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR less) (NNS gloves)) (PP (IN than) (NP (NNS masks)))))))
+
+there are less masks than gloves
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR less) (NNS masks)) (PP (IN than) (NP (NNS gloves)))))))
+
+the first vowel is E and the last consonant is N
+(ROOT (S (S (NP (DT the) (JJ first) (NN vowel)) (VP (VBZ is) (NP (NNP E)))) (CC and) (S (NP (DT the) (JJ last) (NN consonant)) (VP (VBZ is))) (NNP N)))
+
+the last vowel is E and the first consonant is N
+(ROOT (S (S (NP (DT the) (JJ last) (NN vowel)) (VP (VBZ is) (NP (NNP E)))) (CC and) (S (NP (DT the) (JJ first) (NN consonant)) (VP (VBZ is))) (NNP N)))
+
+the cat on the left of the photo has its right paw ahead of its left
+(ROOT (S (NP (NP (DT the) (NN cat)) (PP (IN on) (NP (NP (DT the) (NN left)) (PP (IN of) (NP (DT the) (NN photo)))))) (VP (VBZ has) (NP (PRP$ its) (JJ right) (NN paw)) (ADVP (RB ahead) (PP (IN of) (NP (PRP$ its) (NN left)))))))
+
+the cat on the left of the photo has its left paw ahead of its right
+(ROOT (S (NP (NP (DT the) (NN cat)) (PP (IN on) (NP (NP (DT the) (NN left)) (PP (IN of) (NP (DT the) (NN photo)))))) (VP (VBZ has) (NP (PRP$ its) (JJ left) (NN paw)) (ADVP (RB ahead) (PP (IN of) (NP (PRP$ its) (NN right)))))))
+
+star of death
+(ROOT (NP (NP (NN star)) (PP (IN of) (NP (NN death)))))
+
+death of star
+(ROOT (NP (NP (NN death)) (PP (IN of) (NP (NN star)))))
+
+the younger person is making noise while the other is silent
+(ROOT (S (NP (DT the) (JJR younger) (NN person)) (VP (VBZ is) (VP (VBG making) (NP (NN noise)) (SBAR (IN while) (S (NP (DT the) (JJ other)) (VP (VBZ is) (ADJP (JJ silent)))))))))
+
+the younger person is silent while the other is making noise
+(ROOT (S (NP (DT the) (JJR younger) (NN person)) (VP (VBZ is) (ADJP (JJ silent)) (SBAR (IN while) (S (NP (DT the) (NN other)) (VP (VBZ is) (VP (VBG making) (NP (NN noise)))))))))
+
+hot rubber and cool metal
+(ROOT (NP (NP (JJ hot) (NN rubber)) (CC and) (NP (JJ cool) (NN metal))))
+
+cool rubber and hot metal
+(ROOT (NP (NP (JJ cool) (NN rubber)) (CC and) (NP (JJ hot) (NN metal))))
+
+the green one is fast and the one in white is comparatively slow
+(ROOT (S (S (NP (DT the) (JJ green) (NN one)) (VP (VBZ is) (ADJP (JJ fast)))) (CC and) (S (NP (NP (DT the) (NN one)) (PP (IN in) (NP (NN white)))) (VP (VBZ is) (ADJP (RB comparatively) (JJ slow))))))
+
+the green one is slow and the one in white is comparatively fast
+(ROOT (S (S (NP (DT the) (JJ green) (NN one)) (VP (VBZ is) (ADJP (JJ slow)))) (CC and) (S (NP (NP (DT the) (NN one)) (PP (IN in) (NP (NN white)))) (VP (VBZ is) (ADJP (RB comparatively) (JJ fast))))))
+
+there are more legs than wheels
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR more) (NNS legs)) (PP (IN than) (NP (NNS wheels)))))))
+
+there are more wheels than legs
+(ROOT (S (NP (EX there)) (VP (VBP are) (NP (NP (JJR more) (NNS wheels)) (PP (IN than) (NP (NNS legs)))))))
+
+a group of three people with longer hair and two with short hair in a business context
+(ROOT (NP (NP (NP (DT a) (NN group)) (PP (IN of) (NP (NP (CD three) (NNS people)) (PP (IN with) (NP (JJR longer) (NN hair)))))) (CC and) (NP (NP (CD two)) (PP (IN with) (NP (JJ short) (NN hair))) (PP (IN in) (NP (DT a) (NN business) (NN context))))))
+
+a group of two people with longer hair and three with short hair in a business context
+(ROOT (NP (NP (DT a) (NN group)) (PP (IN of) (NP (NP (NP (CD two) (NNS people)) (PP (IN with) (NP (JJR longer) (NN hair)))) (CC and) (NP (NP (CD three)) (PP (IN with) (NP (JJ short) (NN hair))) (PP (IN in) (NP (DT a) (NN business) (NN context))))))))
+
+the skipping rope color is different to the shoelaces but similar to the shoes
+(ROOT (S (NP (DT the) (NN skipping) (NN rope) (NN color)) (VP (VBZ is) (ADJP (ADJP (JJ different) (PP (IN to) (NP (DT the) (NNS shoelaces)))) (CC but) (ADJP (JJ similar) (PP (IN to) (NP (DT the) (NNS shoes))))))))
+
+the skipping rope color is similar to the shoelaces but different to the shoes
+(ROOT (S (NP (DT the) (NML (NN skipping) (NN rope)) (NN color)) (VP (VBZ is) (ADJP (ADJP (JJ similar) (PP (IN to) (NP (DT the) (NNS shoelaces)))) (CC but) (ADJP (JJ different) (PP (IN to) (NP (DT the) (NNS shoes))))))))
+
+the melting white food is cold while the brown is warm
+(ROOT (S (NP (DT the) (NN melting) (JJ white) (NN food)) (VP (VBZ is) (ADJP (JJ cold)) (SBAR (IN while) (S (NP (DT the) (NN brown)) (VP (VBZ is) (ADJP (JJ warm))))))))
+
+the melting white food is warm while the brown is cold
+(ROOT (S (NP (DT the) (NN melting) (JJ white) (NN food)) (VP (VBZ is) (ADJP (JJ warm)) (SBAR (IN while) (S (NP (DT the) (NN brown)) (VP (VBZ is) (ADJP (JJ cold))))))))
+
+the person with a beard is smiling while the person with long hair is not
+(ROOT (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT a) (NN beard)))) (VP (VBZ is) (VP (VBG smiling) (SBAR (IN while) (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (JJ long) (NN hair)))) (VP (VBZ is) (RB not))))))))
+
+the person with long hair is smiling while the person with a beard is not
+(ROOT (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (JJ long) (NN hair)))) (VP (VBZ is) (VP (VBG smiling) (SBAR (IN while) (S (NP (NP (DT the) (NN person)) (PP (IN with) (NP (DT a) (NN beard)))) (VP (VBZ is) (RB not))))))))
+
+the outlet carrying water from the faucet to the shower head is near the hot tap not the cold
+(ROOT (S (NP (NP (DT the) (NN outlet)) (VP (VBG carrying) (NP (NN water)) (PP (IN from) (NP (DT the) (NN faucet))) (PP (IN to) (NP (DT the) (NN shower) (NN head))))) (VP (VBZ is) (PP (IN near) (NP (NP (DT the) (JJ hot) (NN tap)) (RB not) (NP (DT the) (NN cold)))))))
+
+the outlet carrying water from the faucet to the shower head is near the cold tap not the hot
+(ROOT (S (NP (NP (DT the) (NN outlet)) (VP (VBG carrying) (NP (NN water)) (PP (IN from) (NP (DT the) (NN faucet))) (PP (IN to) (NP (DT the) (NN shower) (NN head))))) (VP (VBZ is) (PP (IN near) (NP (NP (DT the) (JJ cold) (NN tap)) (RB not) (NP (DT the) (JJ hot)))))))
+
+the larger ball is heavier and the smaller one is lighter
+(ROOT (S (S (NP (DT the) (JJR larger) (NN ball)) (VP (VBZ is) (ADJP (JJR heavier)))) (CC and) (S (NP (DT the) (JJR smaller) (NN one)) (VP (VBZ is) (ADJP (JJR lighter))))))
+
+the larger ball is lighter and the smaller one is heavier
+(ROOT (S (S (NP (DT the) (JJR larger) (NN ball)) (VP (VBZ is) (ADJP (JJR lighter)))) (CC and) (S (NP (DT the) (JJR smaller) (NN one)) (VP (VBZ is) (ADJP (JJR heavier))))))
+
+The white queen is taking the black king
+(ROOT (S (NP (DT The) (JJ white) (NN queen)) (VP (VBZ is) (VP (VBG taking) (NP (DT the) (JJ black) (NN king))))))
+
+The black queen is taking the white king
+(ROOT (S (NP (DT The) (JJ black) (NN queen)) (VP (VBZ is) (VP (VBG taking) (NP (DT the) (JJ white) (NN king))))))
+
+the green leaves will soon be red as the seasons change
+(ROOT (S (NP (DT the) (JJ green) (NNS leaves)) (VP (MD will) (ADVP (RB soon)) (VP (VB be) (ADJP (JJ red)) (SBAR (IN as) (S (NP (DT the) (NNS seasons)) (VP (VBP change))))))))
+
+the red leaves will soon be green as the seasons change
+(ROOT (S (NP (DT the) (JJ red) (NNS leaves)) (VP (MD will) (ADVP (RB soon)) (VP (VB be) (ADJP (JJ green)) (SBAR (IN as) (S (NP (DT the) (NNS seasons)) (VP (VBP change))))))))
+
+the white wall will soon be painted blue
+(ROOT (S (NP (DT the) (JJ white) (NN wall)) (VP (MD will) (ADVP (RB soon)) (VP (VB be) (VP (VBN painted) (ADJP (JJ blue)))))))
+
+the blue wall will soon be painted white
+(ROOT (S (NP (DT the) (JJ blue) (NN wall)) (VP (MD will) (ADVP (RB soon)) (VP (VB be) (VP (VBN painted) (ADJP (JJ white)))))))
+
+a kid jumped then threw a basketball
+(ROOT (S (NP (NP (DT a) (NN kid)) (VP (VBD jumped) (ADVP (RB then)))) (VP (VBD threw) (NP (DT a) (NN basketball)))))
+
+a kid threw a basketball then jumped
+(ROOT (S (NP (DT a) (NN kid)) (VP (VBD threw) (S (NP (DT a) (NN basketball)) (ADVP (RB then)) (VP (VBD jumped))))))
+
+what is green will soon be yellow
+(ROOT (S (SBAR (WHNP (WP what)) (S (VP (VBZ is) (ADJP (NN green))))) (VP (MD will) (ADVP (RB soon)) (VP (VB be) (ADJP (JJ yellow))))))
+
+what is yellow will soon be green
+(ROOT (S (SBAR (WHNP (WP what)) (S (VP (VBZ is) (ADJP (NN yellow))))) (VP (MD will) (ADVP (RB soon)) (VP (VB be) (ADJP (JJ green))))))
+
+soon this animal not with a tail will have one
+(ROOT (S (ADVP (RB soon)) (NP (DT this) (NN animal)) (PP (RB not) (IN with) (NP (DT a) (NN tail))) (VP (MD will) (VP (VB have) (NP (CD one))))))
+
+soon this animal with a tail will not have one
+(ROOT (S (ADVP (RB soon)) (NP (NP (DT this) (NN animal)) (PP (IN with) (NP (DT a) (NN tail)))) (VP (MD will) (RB not) (VP (VB have) (NP (CD one))))))
+
+that person dusting off their hands
+(ROOT (S (NP (DT that) (NN person)) (VP (VBG dusting) (PRT (RP off)) (NP (PRP$ their) (NNS hands)))))
+
+that person hands off their dusting
+(ROOT (S (NP (DT that) (NN person)) (VP (VBZ hands) (PRT (RP off)) (NP (PRP$ their) (NN dusting)))))
+
+a person with short hair is happily ironing a light blue shirt while a person with long hair sits on a white couch
+(ROOT (S (NP (NP (DT a) (NN person)) (PP (IN with) (NP (JJ short) (NN hair)))) (VP (VBZ is) (ADVP (RB happily)) (VP (VBG ironing) (NP (DT a) (NN light) (JJ blue) (NN shirt)) (SBAR (IN while) (S (NP (NP (DT a) (NN person)) (PP (IN with) (NP (JJ long) (NN hair)))) (VP (VBZ sits) (PP (IN on) (NP (DT a) (JJ white) (NN couch))))))))))
+
+a person with long hair is happily ironing a light blue shirt while a person with short hair sits on a white couch
+(ROOT (S (NP (NP (DT a) (NN person)) (PP (IN with) (NP (JJ long) (NN hair)))) (VP (VBZ is) (ADVP (RB happily)) (VP (VBG ironing) (NP (DT a) (NN light) (JJ blue) (NN shirt)) (SBAR (IN while) (S (NP (NP (DT a) (NN person)) (PP (IN with) (NP (JJ short) (NN hair)))) (VP (VBZ sits) (PP (IN on) (NP (DT a) (JJ white) (NN couch))))))))))
+
+darker things become light in stripes
+(ROOT (S (NP (JJR darker) (NNS things)) (VP (VBP become) (ADJP (JJ light)) (PP (IN in) (NP (NNS stripes))))))
+
+light things in stripes become darker
+(ROOT (S (NP (NP (JJ light) (NNS things)) (PP (IN in) (NP (NNS stripes)))) (VP (VBP become) (ADJP (JJR darker)))))
+
+A right hand pulls a glove onto a left hand
+(ROOT (S (NP (DT A) (JJ right) (NN hand)) (VP (VBZ pulls) (NP (DT a) (NN glove)) (PP (IN onto) (NP (DT a) (JJ left) (NN hand))))))
+
+A left hand pulls a glove onto a right hand
+(ROOT (S (NP (DT A) (JJ left) (NN hand)) (VP (VBZ pulls) (NP (DT a) (NN glove)) (PP (IN onto) (NP (DT a) (JJ right) (NN hand))))))
+
+in the stadium, the person wearing gray outperformed the one wearing blue
+(ROOT (S (PP (IN in) (NP (DT the) (NN stadium))) (, ,) (NP (NP (DT the) (NN person)) (VP (VBG wearing) (NP (NN gray)))) (VP (VBD outperformed) (NP (NP (DT the) (NN one)) (VP (VBG wearing) (ADJP (JJ blue)))))))
+
+in the stadium, the person wearing blue outperformed the one wearing gray
+(ROOT (S (PP (IN in) (NP (DT the) (NN stadium))) (, ,) (NP (NP (DT the) (NN person)) (VP (VBG wearing) (NP (NN blue)))) (VP (VBD outperformed) (NP (NP (DT the) (NN one)) (VP (VBG wearing) (NP (NN gray)))))))
+
+on halloween, a child dressed as an insect is to the right of a child dressed as a mammal
+(ROOT (S (PP (IN on) (NP (NN halloween))) (, ,) (NP (NP (DT a) (NN child)) (VP (VBN dressed) (PP (IN as) (NP (DT an) (NN insect))))) (VP (VBZ is) (PP (IN to) (NP (NP (DT the) (NN right)) (PP (IN of) (NP (NP (DT a) (NN child)) (VP (VBN dressed) (PP (IN as) (NP (DT a) (NN mammal)))))))))))
+
+on halloween, a child dressed as a mammal is to the right of a child dressed as an insect
+(ROOT (S (PP (IN on) (NP (NN halloween))) (, ,) (NP (NP (DT a) (NN child)) (VP (VBN dressed) (PP (IN as) (NP (DT a) (NN mammal))))) (VP (VBZ is) (PP (IN to) (NP (NP (DT the) (NN right)) (PP (IN of) (NP (NP (DT a) (NN child)) (VP (VBN dressed) (PP (IN as) (NP (DT an) (NN insect)))))))))))
+
+an animal giving a person food
+(ROOT (NP (NP (DT an) (NN animal)) (VP (VBG giving) (NP (NP (DT a) (NN person)) (ADJP (NN food))))))
+
+a person giving an animal food
+(ROOT (NP (NP (DT a) (NN person)) (VP (VBG giving) (NP (DT an) (NN animal) (NN food)))))
+
+a car going into a hollow tube
+(ROOT (NP (NP (DT a) (NN car)) (VP (VBG going) (PP (IN into) (NP (DT a) (JJ hollow) (NN tube))))))
+
+a hollow tube going into a car
+(ROOT (NP (NP (DT a) (JJ hollow) (NN tube)) (VP (VBG going) (PP (IN into) (NP (DT a) (NN car))))))
+
+living things drinking
+(ROOT (S (VP (VBG living) (NP (NNS things)) (S (VP (VBG drinking))))))
+
+drinking living things
+(ROOT (S (VP (NN drinking) (NP (NN living) (NNS things)))))
+
+looking from above at a collection of similar objects below
+(ROOT (S (VP (VBG looking) (PP (IN from) (ADVP (RB above))) (PP (IN at) (NP (NP (DT a) (NN collection)) (PP (IN of) (NP (NP (JJ similar) (NNS objects)) (ADVP (RB below)))))))))
+
+looking from below at a collection of similar objects above
+(ROOT (S (VP (VBG looking) (PP (IN from) (ADVP (RB below))) (PP (IN at) (NP (NP (DT a) (NN collection)) (PP (IN of) (NP (NP (JJ similar) (NNS objects)) (ADVP (RB above)))))))))
+
+a toy herbivore stands on top of at least one toy carnivore
+(ROOT (S (NP (DT a) (NN toy) (NN herbivore)) (VP (VBZ stands) (PP (IN on) (NP (NP (NN top)) (PP (IN of) (NP (QP (ADVP (IN at) (JJS least)) (CD one)) (NN toy) (NN carnivore))))))))
+
+at least one toy herbivore stands on top of a toy carnivore
+(ROOT (S (NP (QP (ADVP (IN at) (JJS least)) (CD one)) (NN toy) (NN herbivore)) (VP (VBZ stands) (PP (IN on) (NP (NP (NN top)) (PP (IN of) (NP (DT a) (NN toy) (NN carnivore))))))))
+
+A person seen from above has a grid below them
+(ROOT (S (NP (NP (DT A) (NN person)) (VP (VBN seen) (PP (IN from) (ADVP (RB above))))) (VP (VBZ has) (NP (NP (DT a) (NN grid)) (PP (IN below) (NP (PRP them)))))))
+
+A person seen from below has a grid above them
+(ROOT (S (NP (NP (DT A) (NN person)) (VP (VBN seen) (PP (IN from) (ADVP (RB below))))) (VP (VBZ has) (NP (NP (DT a) (NN grid)) (PP (IN above) (NP (PRP them)))))))
+
+an odd number of sweet things on a plate with an even number of sides
+(ROOT (NP (NP (DT an) (JJ odd) (NN number)) (PP (IN of) (NP (NP (JJ sweet) (NNS things)) (PP (IN on) (NP (DT a) (NN plate))) (PP (IN with) (NP (NP (DT an) (JJ even) (NN number)) (PP (IN of) (NP (NNS sides)))))))))
+
+an even number of sweet things on a plate with an odd number of sides
+(ROOT (NP (NP (DT an) (JJ even) (NN number)) (PP (IN of) (NP (NP (JJ sweet) (NNS things)) (PP (IN on) (NP (DT a) (NN plate))) (PP (IN with) (NP (NP (DT an) (JJ odd) (NN number)) (PP (IN of) (NP (NNS sides)))))))))
+
