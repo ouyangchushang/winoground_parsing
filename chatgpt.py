@@ -1,6 +1,6 @@
 import openai
 
-openai.api_key = "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"
+openai.api_key = "Your Key"
 
 completion = openai.ChatCompletion.create(
     model="gpt-4.0-turbo",
